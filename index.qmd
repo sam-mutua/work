@@ -40,6 +40,6 @@ I am an author and maintainer of the following three R packages
 
 -   [AHSurv](https://cran.r-project.org/web/packages/AHSurv/index.html)
 
-Creator of the following Overleaf Latex Template [KyU Thesis Template](https://www.overleaf.com/latex/templates/umr-thesis-template/wwtmdkpjzjpm)
+Creator of the following Overleaf Latex Template [KyU Thesis Template](https://www.overleaf.com/project/66140ee1e75e7b96afd166bf)
 
 I also provide statistical consultancies including statistical and methodological services at an affordable fee.
