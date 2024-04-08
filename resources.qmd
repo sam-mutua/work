@@ -1,0 +1,31 @@
+---
+title: "Statistical Resources"
+---
+
+This page provides a variety of resources on various areas including:
+
+* Latex Software
+* R
+* Python
+* R Package Development
+
+:::: {.grid .course-details .course-details-smaller}
+
+::: {.g-col-4}
+### Latex Resources
+
+
+:::
+
+::: {.g-col-4}
+### R Resources
+
+- [Introduction to R](resources/intro.qmd)
+:::
+
+::: {.g-col-4}
+### Python Resources
+
+
+:::
+::::

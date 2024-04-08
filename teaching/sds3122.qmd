@@ -1,0 +1,21 @@
+---
+title: "SDS 3122: Programming for Data Science"
+---
+
+# Course Details
+
+:::: {.grid .course-details .course-details-smaller}
+
+::: {.g-col-6}
+### Instructor
+
+- {{< fa user >}} &nbsp; [{{< Dr. Mutua Kilai >}}]
+:::
+
+::: {.g-col-6}
+### Course details
+
+- {{< fa calendar >}} 
+:::
+
+::::

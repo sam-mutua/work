@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Mutua Kilai, PhD"
+  page-footer: 
+    left: "Copyright 2024, Mutua Kilai"
+    right: |
+      Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)<br>
+      
+  navbar:
+    pinned: true
+    background: "#0040ff"
+    left:
+      - text: "About"
+        file: index.qmd
+      - text: "Consulting Services"
+        file: consulting.qmd
+      - text: "Lecture Notes"
+        file: teaching.qmd
+      - text: "Resources"
+        file: resources.qmd
+      - text: "Publications"
+        file: publication.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+

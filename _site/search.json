@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mutua Kilai, PhD",
+    "section": "",
+    "text": "I am a Lecturer in the Department of Pure and Applied Sciences ,School of Pure and Applied Sciences at Kirinyaga University\nMy Research and teaching focus on:\n\nStatistical Modeling\nMathematical Statistics\nData Science\nMachine Learning\nSpatial Statistics\n\nI am an author and maintainer of the following three R packages\n\nNovelDistns\nrKenyaForex\nAHSurv\n\nCreator of the following Overleaf Latex Template KyU Thesis Template\nI also provide statistical consultancies including statistical and methodological services at an affordable fee."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Mutua Kilai, Brief Professional Bio",
+    "section": "",
+    "text": "I am currently a Lecturer at the Department of Pure and Applied Sciences at Kirinyaga University"
+  },
+  {
+    "objectID": "about.html#current-position",
+    "href": "about.html#current-position",
+    "title": "Mutua Kilai, Brief Professional Bio",
+    "section": "",
+    "text": "I am currently a Lecturer at the Department of Pure and Applied Sciences at Kirinyaga University"
+  },
+  {
+    "objectID": "consulting.html",
+    "href": "consulting.html",
+    "title": "Consulting Services",
+    "section": "",
+    "text": "Since 2018 i have worked as an independent statistical consultant for nonprofit community organizations. The experiences working with range of different clients, providing scientific expertise and being able to explain technical concepts and be able to communicate results clearly."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Lecture Notes",
+    "section": "",
+    "text": "Below is a list of the courses i have taught under various levels.\nThis combines both theoretical and practical courses i have taught at the following Universities Kirinyaga University, JKUAT and Amoud University\n\n\nKirinyaga University\n\nPost-Graduate\n\nSDS 3122 Programming for Data Science\nSTA 3111 Theory of Estimation\nSTA 3102 Theory of Linear Models\n\n\n\nUndergraduate\n\nSTA 2467 Statistical Model Building\nHES 2213 Design and Analysis of Experiments II\nSPS 2349 Tests of Hypothesis\nSPA 2405 Survival Analysis\n\n\n\n\nJKUAT University\n\nUndergraduate\n\nSTA 2205 Statistical Programming\nSTA 2416 Statistical Computing\nSTA 2203 Time Series Analysis\nSTA 2440 Econometrics\nSTA 2432 Principles of Linear Models\nSTA 2430 Statistical Quality Control"
+  },
+  {
+    "objectID": "index.html#i-also-provide-statistical-consultancies-including-statistical-and-methodological-services-at-an-affordable-fee.",
+    "href": "index.html#i-also-provide-statistical-consultancies-including-statistical-and-methodological-services-at-an-affordable-fee.",
+    "title": "Mutua Kilai, PhD",
+    "section": "I also provide statistical consultancies including statistical and methodological services at an affordable fee.",
+    "text": "I also provide statistical consultancies including statistical and methodological services at an affordable fee."
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Statistical Resources",
+    "section": "",
+    "text": "This page provides a variety of resources on various areas including:\n\nLatex Software\nR\nPython\nR Package Development\n\n\n\nLatex Resources\n\n\nR Resources\n\nIntroduction to R\n\n\n\nPython Resources"
+  },
+  {
+    "objectID": "resources/intro.html",
+    "href": "resources/intro.html",
+    "title": "Introduction to R",
+    "section": "",
+    "text": "This gives a brief on how to install both R and RStudio.\nR is a powerful programming language and software that is widely used for statistical computing, data analysis, visualization and reporting.\nTo install R click here\nTo install RStudio click here\nFor convenience when working with R, you could prefer to use R Projects.\n\n\nThe goal of this resource is to provide you with basic R concepts.\n\nR Basics\nImporting and Exporting Data\nData Manipulation\nData Visualization\n\nFor more resources, kindly consult:\n\nR For Data Science"
+  },
+  {
+    "objectID": "resources/intro.html#what-to-learn",
+    "href": "resources/intro.html#what-to-learn",
+    "title": "Introduction to R",
+    "section": "",
+    "text": "The goal of this resource is to provide you with basic R concepts.\n\nR Basics\nImporting and Exporting Data\nData Manipulation\nData Visualization\n\nFor more resources, kindly consult:\n\nR For Data Science"
+  },
+  {
+    "objectID": "teaching/sds3122.html",
+    "href": "teaching/sds3122.html",
+    "title": "SDS 3122: Programming for Data Science",
+    "section": "",
+    "text": "Course Details\n\n\nInstructor\n\n   []\n\n\n\nCourse details"
+  },
+  {
+    "objectID": "publication.html",
+    "href": "publication.html",
+    "title": "2024",
+    "section": "",
+    "text": "This page contains the list of publications by year.\n\n2024\n\n\n2023\n\n\n2022\n\n\n2021\n\n\n2018"
+  }
+]

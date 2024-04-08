@@ -1,0 +1,33 @@
+---
+title: "Introduction to R"
+---
+
+# 1 Introduction
+
+This gives a brief on how to install both R and RStudio.
+
+R is a powerful programming language and software that is widely used for statistical computing, data analysis, visualization and reporting.
+
+To install R click [here](https://cran.r-project.org/bin/windows/base/)
+
+To install RStudio click [here](https://posit.co/download/rstudio-desktop/)
+
+For convenience when working with R, you could prefer to use R Projects.
+
+
+
+## 1.1 What to Learn
+
+The goal of this resource is to provide you with basic R concepts.
+
+* R Basics
+* Importing and Exporting Data
+* Data Manipulation
+* Data Visualization
+
+For more resources, kindly consult:
+
+- [R For Data Science](https://r4ds.had.co.nz/index.html)
+
+
+

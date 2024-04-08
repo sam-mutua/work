@@ -1,0 +1,45 @@
+---
+title: ""
+about:
+  template: trestles
+  image: files/photo.jpeg
+  links: 
+    - icon: github
+      text: Github
+      href: https://github.com/sam-mutua
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/mutua-kilai/
+    - icon: orcid
+      text: ORCID
+      href: https://orcid.org/0000-0001-6290-9728
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/SamKMutua
+---
+
+I am a Lecturer in the [Department of Pure and Applied Sciences](https://spas.kyu.ac.ke/spas-pages/departments/pure-and-applied-sciences) ,[School of Pure and Applied Sciences](https://spas.kyu.ac.ke/) at [Kirinyaga University](https://www.kyu.ac.ke/)
+
+My Research and teaching focus on:
+
+-   Statistical Modeling
+
+-   Mathematical Statistics
+
+-   Data Science
+
+-   Machine Learning
+
+-   Spatial Statistics
+
+I am an author and maintainer of the following three R packages
+
+-   [NovelDistns](https://cran.r-project.org/web/packages/NovelDistns/index.html)
+
+-   [rKenyaForex](https://cran.r-project.org/web/packages/rKenyaForex/rKenyaForex.pdf)
+
+-   [AHSurv](https://cran.r-project.org/web/packages/AHSurv/index.html)
+
+Creator of the following Overleaf Latex Template [KyU Thesis Template](https://www.overleaf.com/latex/templates/umr-thesis-template/wwtmdkpjzjpm)
+
+I also provide statistical consultancies including statistical and methodological services at an affordable fee.

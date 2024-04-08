@@ -1,0 +1,55 @@
+---
+title: "Lecture Notes"
+---
+
+Below is a list of the courses i have taught under various levels.
+
+This combines both theoretical and practical courses i have taught at the following Universities [Kirinyaga University](https://www.kyu.ac.ke/), [JKUAT](https://www.jkuat.ac.ke/) and [Amoud University](https://amouduniversity.org/)
+
+
+:::: {.grid .course-details .course-details-smaller}
+
+::: {.g-col-6}
+### Kirinyaga University
+
+#### Post-Graduate
+
+- [SDS 3122 Programming for Data Science](teaching/sds3122.qmd)
+
+- [STA 3111 Theory of Estimation]()
+
+- [STA 3102 Theory of Linear Models]()
+
+
+#### Undergraduate
+
+- [STA 2467 Statistical Model Building]()
+
+- [HES 2213 Design and Analysis of Experiments II]()
+
+- [SPS 2349 Tests of Hypothesis]()
+
+- [SPA 2405 Survival Analysis]()
+
+:::
+
+::: {.g-col-6}
+### JKUAT University
+
+#### Undergraduate
+
+- [STA 2205 Statistical Programming]()
+
+- [STA 2416 Statistical Computing]()
+
+- [STA 2203 Time Series Analysis]()
+
+- [STA 2440 Econometrics]()
+
+- [STA 2432 Principles of Linear Models]()
+
+- [STA 2430 Statistical Quality Control]()
+:::
+
+
+::::
