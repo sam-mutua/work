@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Mutua Kilai, PhD"
+  favicon: "files/logo.png"
   page-footer: 
     left: "Copyright 2024, Mutua Kilai"
     right: |
