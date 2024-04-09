@@ -4,16 +4,52 @@ title: ""
 
 This page contains the list of publications by year.
 
-# 2024
-
-
 # 2023
 
+1. [Statistical Properties of the Exponentiated Alpha Power Inverted Exponential distribution and its Application](https://www.researchgate.net/profile/Moses-Kargbo/publication/378151156_Statistical_Properties_of_the_Exponentiated_Alpha_Power_Inverted_Exponential_distribution_and_its_Application/links/65ca6e271bed776ae34cd32d/Statistical-Properties-of-the-Exponentiated-Alpha-Power-Inverted-Exponential-distribution-and-its-Application.pdf)
+
+2. [Power unit Gumbel type II distribution: Statistical properties, regression analysis, and applications](https://pubs.aip.org/aip/adv/article/13/11/115124/2923256)
+
+3. [Bivariate power Lomax distribution with medical applications](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0282581)
+
+4. [Use of Wavelet and Bootstrap Methods in Streamflow Prediction](https://www.hindawi.com/journals/jmath/2023/4222934/)
 
 # 2022
 
+5. [Statistical modeling for COVID 19 infected patient’s data in Kingdom of Saudi Arabia](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0276688)
+
+6. [X-Gamma Lomax Distribution with Different Applications](https://journals.ekb.eg/article_266566.html)
+
+7. [A Flexible Extension of Reduced Kies Distribution: Properties, Inference, and Applications in Biology](https://www.hindawi.com/journals/complexity/2022/6078567/)
+
+8. [Information Approach for Change Point Analysis of EGGAPE Distribution and Application to COVID-19 Data](https://www.hindawi.com/journals/mpe/2022/9924902/)
+
+9. [Supervised ML Algorithms in the High Dimensional Applications for Dimension Reduction](https://www.hindawi.com/journals/mpe/2022/5816145/)
+
+10. [Novel Type i Half Logistic Burr-Weibull Distribution: Application to COVID-19 Data](https://www.hindawi.com/journals/cmmm/2022/1444859/)
+
+11. [Statistical Analysis Based on Progressive Type-I Censored Scheme from Alpha Power Exponential Distribution with Engineering and Medical Applications](https://www.hindawi.com/journals/jmath/2022/3175820/)
+
+12. [Classical and Bayesian Inference under Burr-X Distribution Based on New Unified Progressive Hybrid Censoring Scheme with Engineering Applications](https://www.hindawi.com/journals/jmath/2022/3746821/)
+
+13. [Modeling Various Survival Distributions using a Nonparametric Hypothesis Testing Based on Laplace Transform Approach with Some Real Applications](https://downloads.hindawi.com/archive/2022/5075716.pdf)
+
+14. [Exponentiated Gull Alpha Exponential Distribution with Application to COVID-19 Data](https://www.hindawi.com/journals/jmath/2022/4255079/)
+
+15. [Estimation Using Suggested EM Algorithm Based on Progressively Type-II Censored Samples from a Finite Mixture of Truncated Type-I Generalized Logistic Distributions with an Application](https://www.hindawi.com/journals/mpe/2022/1720033/)
+
+16. [Response Surface Models Using the Wavelet Technique for Reservoir Inflow Prediction](https://www.hindawi.com/journals/mpe/2022/5171969/)
+
+17. [A new versatile modification of the Rayleigh distribution for modeling COVID-19 mortality rates](https://www.sciencedirect.com/science/article/pii/S2211379722000614)
+
+18. [A new generalization of Gull Alpha Power Family of distributions with application to modeling COVID-19 mortality rates](https://www.sciencedirect.com/science/article/pii/S221137972200119X)
+
+19. [A Hybrid Classification Model of Artificial Neural Network and Non Linear Kernel Support Vector Machine]()
 
 # 2021
 
+20. [A Novel Approach to Increase the Goodness of Fits with an Application to Real and Simulated Data Sets](https://www.hindawi.com/journals/mpe/2021/9717872/)
 
 # 2018
+
+22. [Modelling Kenyan Foreign Exchange Risk Using Asymmetry Garch Models and Extreme Value Theory Approaches]()
