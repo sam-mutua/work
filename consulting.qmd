@@ -2,4 +2,38 @@
 title: "Consulting Services"
 ---
 
-Since 2018 i have worked as an independent statistical consultant for nonprofit community organizations. The experiences working with range of different clients, providing scientific expertise and being able to explain technical concepts and be able to communicate results clearly. 
+Since 2018 i have worked as an independent statistical consultant for nonprofit community organizations. The experiences working with range of different clients, providing scientific expertise and being able to explain technical concepts and be able to communicate results clearly.
+
+
+::: {.grid .course-details .course-details-smaller}
+::: g-col-4
+### Programming
+
+- R Software {{< fa brands r-project >}}
+
+- Python Software {{< fa brands python >}}
+
+:::
+
+::: g-col-4
+### Databases
+
+- SQL
+
+- MySQL
+:::
+
+::: g-col-4
+
+### Statistics Software
+
+- SAS
+
+- STATA
+
+- SPSS
+
+:::
+:::
+
+
