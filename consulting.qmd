@@ -37,3 +37,47 @@ Since 2018 i have worked as an independent statistical consultant for nonprofit 
 :::
 
 
+::: {.grid .course-details .course-details-smaller}
+::: g-col-4
+### Data Collection
+
+- Open Data Kit (ODK)
+
+- Survey CTO
+
+- CSPro
+
+- KoboCollect
+
+:::
+
+::: g-col-4
+### Machine Learning
+
+- Supervised and Unsupervised Learning
+
+- Time Series
+
+- Deep Learning
+
+- Reinforcement Learning
+
+- Natural Language Processing
+:::
+
+::: g-col-4
+
+### Visualization
+
+- Shiny
+
+- Dash
+
+- Power BI
+
+- Tableau
+
+:::
+:::
+
+
