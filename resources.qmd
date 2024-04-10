@@ -25,6 +25,29 @@ This page provides a variety of resources on various areas including:
 
 ::: {.g-col-4}
 ### Python Resources
+- [Crash Course in Python](resources/crash.qmd)
+
+:::
+::::
+
+
+:::: {.grid .course-details .course-details-smaller}
+
+::: {.g-col-4}
+### Data Visualization in R
+
+
+:::
+
+::: {.g-col-4}
+### Data Visualization in Python
+
+- [Introduction to Visualization](resources/datavizpython.qmd)
+
+:::
+
+::: {.g-col-4}
+### Data Mining
 
 
 :::
