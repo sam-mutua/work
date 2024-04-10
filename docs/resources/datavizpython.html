@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Mutua Kilai, PhD - SDS 3122: Programming for Data Science</title>
+<title>Mutua Kilai, PhD - Introduction to Data Visualization</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -119,7 +153,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#course-details" id="toc-course-details" class="nav-link active" data-scroll-target="#course-details">Course Details</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#data-science-and-data-visualization" id="toc-data-science-and-data-visualization" class="nav-link" data-scroll-target="#data-science-and-data-visualization">Data Science and Data Visualization</a></li>
+  <li><a href="#writing-your-first-program" id="toc-writing-your-first-program" class="nav-link" data-scroll-target="#writing-your-first-program">Writing Your First Program</a>
+  <ul class="collapse">
+  <li><a href="#important-requirements-anaconda-jupyter-matplotlib" id="toc-important-requirements-anaconda-jupyter-matplotlib" class="nav-link" data-scroll-target="#important-requirements-anaconda-jupyter-matplotlib">Important Requirements: Anaconda, Jupyter, Matplotlib</a></li>
+  </ul></li>
+  <li><a href="#python-variables-and-data-types" id="toc-python-variables-and-data-types" class="nav-link" data-scroll-target="#python-variables-and-data-types">Python Variables and Data Types</a></li>
+  <li><a href="#data-visualization-libraries" id="toc-data-visualization-libraries" class="nav-link" data-scroll-target="#data-visualization-libraries">Data Visualization Libraries</a></li>
   </ul>
 </nav>
     </div>
@@ -128,7 +169,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">SDS 3122: Programming for Data Science</h1>
+<h1 class="title">Introduction to Data Visualization</h1>
 </div>
 
 
@@ -143,21 +184,190 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="course-details" class="level1">
-<h1>Course Details</h1>
-<div class="grid course-details course-details-smaller">
-<section id="instructor" class="level3 g-col-6">
-<h3 class="anchored" data-anchor-id="instructor">Instructor</h3>
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p>This material gives an introduction to Data Visualization in Python for Beginners.</p>
+<p>For more details you can consult the following reference materials:</p>
+<ol type="1">
+<li><p><a href="https://www.google.co.ke/books/edition/Data_Visualization_with_Python_for_Begin/RdRizQEACAAJ?hl=en">Data Visualization with Python for Beginners. <em>Visualize Your Data Using Pandas, Matplotlib and Seaborn</em></a></p></li>
+<li><p><a href="https://www.google.co.ke/books/edition/Data_Visualization_with_Python_and_JavaS/PCCTDAAAQBAJ?hl=en&amp;gbpv=0">Data Visualization with Python and JavaScript. <em>Scrape, Clean, Explore and Transform Your Data</em></a></p></li>
+</ol>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Codes are given in this tutorial. You can copy and paste them on your pc.</p>
+</div>
+</div>
+<p>Install Anaconda on your Laptop. <a href="https://docs.anaconda.com/free/anaconda/install/windows/">For details on how to install anaconda see here</a></p>
+</section>
+<section id="data-science-and-data-visualization" class="level1">
+<h1>Data Science and Data Visualization</h1>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Data Science
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This is the science of extracting and exploring data in order to find patterns that can be used to make decisions in organizations.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Data Visualization
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This is a subdomain of data science where you visualize data with the help of graphs and tables in order to identify important patterns.</p>
+</div>
+</div>
+<p>Visualizing data graphically can reveal trends that otherwise may be hidden from the naked eye of a person.</p>
+<p>Data visualization is a step to important processes such as:</p>
 <ul>
-<li><i class="fa-solid fa-user" aria-label="user"></i> &nbsp; []</li>
+<li>Data Science</li>
+<li>Machine Learning</li>
+<li>Business Intelligence</li>
+<li>Data Analytics</li>
+</ul>
+<p><strong>Data Visualization is one of the important skill sets of this century if you want to secure a data science job</strong></p>
+<p>Please you can watch this video on <em>A Data Scientists Perspective of the importance of data visualization to data science</em></p>
+<div class="ratio ratio-16x9">
+<iframe width="912" height="513" src="https://www.youtube.com/embed/k8YxyrcAXJs" title="Is Data Visualization Important for Data Science? (A Data Scientist's Perspective)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
+</div>
+</section>
+<section id="writing-your-first-program" class="level1">
+<h1>Writing Your First Program</h1>
+<p>In order to write a program in Anaconda, you have to launch Anaconda Navigator.</p>
+<p>Search <em>Anaconda Navigator</em> in your Windows Search Box. Once you click on the application the Anaconda’s dashboard will open.</p>
+<p>We will use the <em>Jupyter Notebook</em> in this resource.</p>
+<p><img src="..\files/anaconda.png" class="img-fluid"></p>
+<p>The top right corner of Jupyter Notebook’s own dashboard houses a New button, you have to click to open a new document. From the dropdown that has several options click on Python 3.</p>
+<p><img src="..\files/first.png" class="img-fluid"></p>
+<p>A new Jupyter Notebook will appear that looks like this</p>
+<p><img src="..\files/second.png" class="img-fluid"></p>
+<p>The Jupyter Notebook consists of cells that makes its <strong>layout very simple and straightforward</strong>.</p>
+<p>We can write our first program as:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Welcome to Data Visualization with Python"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="important-requirements-anaconda-jupyter-matplotlib" class="level3 {callout}">
+<h3 class="anchored" data-anchor-id="important-requirements-anaconda-jupyter-matplotlib">Important Requirements: Anaconda, Jupyter, Matplotlib</h3>
+<ul>
+<li><p>All the scripts in this tutorial are written in Jupyter Notebook</p></li>
+<li><p>We will explore the following visualization modules:</p>
+<ul>
+<li>Matplotlib</li>
+<li>Seaborn</li>
+<li>Pandas</li>
+<li>Plotly</li>
+</ul></li>
 </ul>
 </section>
-<section id="course-details-1" class="level3 g-col-6">
-<h3 class="anchored" data-anchor-id="course-details-1">Course details</h3>
-<ul>
-<li><p><i class="fa-solid fa-calendar" aria-label="calendar"></i></p></li>
-</ul>
+<p>To install a python library use the following in a Jupyter Notebook cell</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># install pandas library</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install pandas</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>To load any Python library use</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># loading library</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
+<section id="python-variables-and-data-types" class="level1">
+<h1>Python Variables and Data Types</h1>
+<p>In a programming language <strong>data types</strong> refers to the type of data that the language is capable of processing.</p>
+<p>In Python the major data types supported include:</p>
+<ul>
+<li>Strings</li>
+<li>Integers</li>
+<li>Floating Point Numbers</li>
+<li>Booleans</li>
+<li>Lists</li>
+<li>Tuples</li>
+<li>Dictionaries</li>
+</ul>
+<p>For more details see <a href="../resources/crash.html">Crash Course in Python</a></p>
+</section>
+<section id="data-visualization-libraries" class="level1">
+<h1>Data Visualization Libraries</h1>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Matplotlib
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><a href="https://matplotlib.org/">Matplotlib</a> is the default static data visualization in Python.</p>
+<p>Many wrappers libraries like Pandas and Seaborn have been developed on top of Matplolib</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Seaborn
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This library is built on top of the Matplotlib library and contains all the plotting capabilities of Matplotlib.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Basemap
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This is an extension of the Matplotlib and is used for plotting Geographical Maps in Python</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Pandas
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Pandas library, like Seaborn, is based on the Matplotlib library and offers utilities that can be used to plot different types of static plots in a single line of codes.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Plotly
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Plotly is an online data visualization platform that supports interactive data visualization. More will be explored.</p>
+</div>
 </div>
 
 

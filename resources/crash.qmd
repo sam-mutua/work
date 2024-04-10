@@ -1,0 +1,22 @@
+---
+title: "Crash Course in Python"
+---
+
+# Python Installation
+
+For guidelines on how to install Python refer [here](/resources/datavizpython.qmd)
+
+
+# Python Variables and Data Types
+
+Data types in a programming language refers to the type of data that the language is capable of processing.
+
+The following are the data types available in Python
+
+i. Strings
+ii. Integers
+iii. Floating Point Numbers
+iv. Lists
+v. Tuples
+vi. Dictionaries
+
