@@ -12,7 +12,7 @@ This combines both theoretical and practical courses i have taught at the follow
 
 #### Post-Graduate
 
--   [SDS 3122 Programming for Data Science](teaching/sds3122.qmd)
+-   [SDS 3122 Programming for Data Science](https://sam-mutua.github.io/SDS3121/)
 
 -   [STA 3111 Theory of Estimation]()
 
