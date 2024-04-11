@@ -18,7 +18,7 @@
     "href": "resources.html",
     "title": "Statistical Resources",
     "section": "",
-    "text": "This page provides a variety of resources on various areas including:\n\nLatex Software\nR\nPython\nR Package Development\n\n\n\nLatex Resources\n\n\nR Resources\n\nIntroduction to R\n\n\n\nPython Resources\n\nCrash Course in Python\n\n\n\n\n\nData Visualization in R\n\n\nData Visualization in Python\n\nIntroduction to Visualization\nData Visualization Using Matplotlib and Seaborn\n\n\n\nData Mining"
+    "text": "This page provides a variety of resources on various areas including:\n\nLatex Software\nR\nPython\nR Package Development\n\n\n\nLatex Resources\n\nIntroduction to Latex\n\n\n\nR Resources\n\nIntroduction to R\n\n\n\nPython Resources\n\nCrash Course in Python\n\n\n\n\n\nData Visualization in R\n\n\nData Visualization in Python\n\nIntroduction to Visualization\nData Visualization Using Matplotlib and Seaborn\n\n\n\nData Mining"
   },
   {
     "objectID": "publication.html",
@@ -96,5 +96,159 @@
     "title": "Data Visualization Using Matplotlib and Seaborn",
     "section": "Line Graph",
     "text": "Line Graph\n\nimport matplotlib.pyplot as plt\nimport seaborn as sns\nyield_maize = [0.895, 0.91, 0.919, 0.926, 0.929, 0.931]\nplt.plot(yield_maize)\nplt.show()\n\n\n\n\n\nCustomizing the x-axis\nWe can add the year in the x-axis and have\n\nyear = [2021,2022,2023,2024,2025,2026]\nyield_maize = [0.895, 0.91, 0.919, 0.926, 0.929, 0.931]\nplt.plot(year,yield_maize)\nplt.show()\n\n\n\n\n\n\nAxis Labels\n\nplt.plot(year, yield_maize)\nplt.xlabel(\"Year\")\nplt.ylabel(\"Yield\")\nplt.title(\"Yield Harvest per year\")\n\nText(0.5, 1.0, 'Yield Harvest per year')\n\n\n\n\n\n\n\nLine Markers\nFor line graphs, you can have markers for the line you are plotting. See full details of line markers in matplotlib\n\nplt.plot(year, yield_maize, marker = \"o\")\nplt.xlabel(\"Year\")\nplt.ylabel(\"Yield\")\nplt.title(\"Yield Harvest per year\")\n\nText(0.5, 1.0, 'Yield Harvest per year')\n\n\n\n\n\n\n\nStyling the Lines\nThe function plt.plot supports many arguments for styling markers and the lines\n\ncolor or c This sets the line color\nls Gives you to choose between solid or dashed line\nlw sets the line width\n\nTo see more details of the function see the documentation\n\n\nUsing Seaborn\nTo make your chart more appeasing you use some default styles form Seaborn library.\n\nWhitegrid style\n\nsns.set_style(\"whitegrid\")\nplt.plot(year, yield_maize, marker = \"o\")\nplt.xlabel(\"Year\")\nplt.ylabel(\"Yield\")\nplt.title(\"Yield Harvest per year\")\n\nText(0.5, 1.0, 'Yield Harvest per year')\n\n\n\n\n\n\n\ndarkgrid style\n\nsns.set_style(\"darkgrid\")\nplt.plot(year, yield_maize, marker = \"o\")\nplt.xlabel(\"Year\")\nplt.ylabel(\"Yield\")\nplt.title(\"Yield Harvest per year\")\n\nText(0.5, 1.0, 'Yield Harvest per year')"
+  },
+  {
+    "objectID": "resources/introlatex.html#introduction",
+    "href": "resources/introlatex.html#introduction",
+    "title": "Introduction to Latex",
+    "section": "Introduction",
+    "text": "Introduction\n\nLaTex is a typesetting system suitable for producing scientific and mathematical documents\n\nLaTex enables authors to typeset and print their work\nLaTex is pronounced as “Lay-tech”\nTex is the typesetting engine used by LaTex"
+  },
+  {
+    "objectID": "resources/introlatex.html#motivation",
+    "href": "resources/introlatex.html#motivation",
+    "title": "Introduction to Latex",
+    "section": "Motivation",
+    "text": "Motivation\n\n\n\n\n\n\nEncouragement\n\n\nThe ideal situation occurs when the things we regard as beautiful are also regarded by other people as useful ~ Donald Knuth\n\n\n\n\n\n\n\n\n\nGoal\n\n\nMaking your math look good!!!\n\n\n\n\n\n\n\n\n\nDisclaimer\n\n\nThis is just an introduction to the basics of typesetting in Maths. For more details you can explore further on your own."
+  },
+  {
+    "objectID": "resources/introlatex.html#overview",
+    "href": "resources/introlatex.html#overview",
+    "title": "Introduction to Latex",
+    "section": "Overview",
+    "text": "Overview\n\nQuick Introduction\nSetup + Demo\nGroup work in breakouts\nParting thoughts"
+  },
+  {
+    "objectID": "resources/introlatex.html#latex-is-a-programming-language",
+    "href": "resources/introlatex.html#latex-is-a-programming-language",
+    "title": "Introduction to Latex",
+    "section": "LaTeX is a programming language",
+    "text": "LaTeX is a programming language\n\n\nAdvantages\n\nMath is displayed nicely and easy to edit\nRequired in Post-graduate courses\nGood for writing research articles\n\n\nDisadvantages\n\nThere is a steep learning curve\n\n\n\n\n\n\nDr. Mutua Kilai,PhD"
+  },
+  {
+    "objectID": "resources/introlatex.html#latex-pros-and-cons",
+    "href": "resources/introlatex.html#latex-pros-and-cons",
+    "title": "Introduction to Latex",
+    "section": "LaTeX Pros and Cons",
+    "text": "LaTeX Pros and Cons\n\n\nAdvantages\n\nMath is displayed nicely and easy to edit\nRequired in Post-graduate courses\nGood for writing research articles\n\n\nDisadvantages\n\nThere is a steep learning curve"
+  },
+  {
+    "objectID": "resources/introlatex.html#references-for-latex",
+    "href": "resources/introlatex.html#references-for-latex",
+    "title": "Introduction to Latex",
+    "section": "References for Latex",
+    "text": "References for Latex\n\nThe not so short introduction to LaTex\nComprehensive Tex archive Network\nGoogle\nTex Exchange Forum"
+  },
+  {
+    "objectID": "resources/introlatex.html#installing-latex",
+    "href": "resources/introlatex.html#installing-latex",
+    "title": "Introduction to Latex",
+    "section": "Installing Latex",
+    "text": "Installing Latex\n\nDescription on installing MikTex for Windows users.\nDownload MikTex from here then download TexStudio Editor\nMikTex is a package that contains all the needed programs for converting a file once it has been written as well as an integrated version of the front end program.\n\n\n\n\n\n\n\nImportant\n\n\nFollow the steps and directions during installation. Install the basic package."
+  },
+  {
+    "objectID": "resources/introlatex.html#basic-file-extensions-in-latex",
+    "href": "resources/introlatex.html#basic-file-extensions-in-latex",
+    "title": "Introduction to Latex",
+    "section": "Basic File Extensions in LateX",
+    "text": "Basic File Extensions in LateX\n\n\n\n\n\n\n\nFile Extensions\nSignificance\n\n\n\n\n.tex\nContains symbols and text written in the editor\n\n\n.aux\nData files for cross referencing and across compilers\n\n\n.log\nCompiler information, warnings, error warnings\n\n\n.dvi\nMain output file of initial TeX"
+  },
+  {
+    "objectID": "resources/introlatex.html#contd",
+    "href": "resources/introlatex.html#contd",
+    "title": "Introduction to Latex",
+    "section": "Cont’d",
+    "text": "Cont’d\n\n\n\n\n\n\n\nFile Extensions\nSignificance\n\n\n\n\n.ps\nPostScript files\n\n\n.cls\nClass file containing commands,environment\n\n\n.sty\nStyle file containing macro definitions and other extensions\n\n\n.pdf\nCommon output format\n\n\n.bib\nBibliography entries"
+  },
+  {
+    "objectID": "resources/introlatex.html#getting-started",
+    "href": "resources/introlatex.html#getting-started",
+    "title": "Introduction to Latex",
+    "section": "Getting Started",
+    "text": "Getting Started"
+  },
+  {
+    "objectID": "resources/introlatex.html#easiest-way-to-start",
+    "href": "resources/introlatex.html#easiest-way-to-start",
+    "title": "Introduction to Latex",
+    "section": "Easiest way to start",
+    "text": "Easiest way to start\n\nClick on Wizards then select Quick Start.\n\n\n\nBox\n\n\nExplanation\n\nQuick Start enables you quickly start a Latex document\nQuick Beamer Presentation enables beamer slides"
+  },
+  {
+    "objectID": "resources/introlatex.html#contd-1",
+    "href": "resources/introlatex.html#contd-1",
+    "title": "Introduction to Latex",
+    "section": "Cont’d",
+    "text": "Cont’d\n\n\nDialogue Box\n\n\nExplanation\n\nDocument class Latex has options article,report,letter,book, beamer\nTypeface Size gives the font size 10pt, 11pt and 12pt are the options\nPaper Size Gives the paper size of your document"
+  },
+  {
+    "objectID": "resources/introlatex.html#geometry-settings",
+    "href": "resources/introlatex.html#geometry-settings",
+    "title": "Introduction to Latex",
+    "section": "Geometry Settings",
+    "text": "Geometry Settings\n\n\nGeometry\n\n\nExplanation\n\nYou set the Page size of your document by specifying the width and height\nSet the margins by specifying the left, right, top and bottom margins"
+  },
+  {
+    "objectID": "resources/introlatex.html#latex-setup",
+    "href": "resources/introlatex.html#latex-setup",
+    "title": "Introduction to Latex",
+    "section": "Latex Setup",
+    "text": "Latex Setup\n\n\nThe code\n\\documentclass[12pt,a4paper]{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage[T1]{fontenc}\n\\usepackage{amsmath}\n\\usepackage{amsfonts}\n\\usepackage{amssymb}\n\\usepackage{graphicx}\n\\usepackage{geometry}\n\\geometry{verbose, rmargin=20mm, lmargin=30mm, rmargin=20mm, tmargin=20mm}\n\\author{Dr. Mutua Kilai}\n\\title{Latex Tutorial}\n\\begin{document}\n    \\maketitle\n\\end{document}\n\namsmath, amsfonts, amssymb for Math.\n\n\nOutput\n\n\n\\maketitle enables you to print the title"
+  },
+  {
+    "objectID": "resources/introlatex.html#error-handling",
+    "href": "resources/introlatex.html#error-handling",
+    "title": "Introduction to Latex",
+    "section": "Error Handling",
+    "text": "Error Handling\n\nIf during compilation the compiler spits out an error then:\n\nDon’t panic!\nRead the error message which will also point you to the source of the error\nCorrect the error and recompile\n\nIf the error message looks cryptic just head straight to Google or Tex Stack Exchange"
+  },
+  {
+    "objectID": "resources/introlatex.html#the-document",
+    "href": "resources/introlatex.html#the-document",
+    "title": "Introduction to Latex",
+    "section": "The Document",
+    "text": "The Document\n\n\nDocument Class\n\nThe actual syntax of the documentclass command is\n\n\\documentclass[options]{class}\nFont Size\n\nOptions 10pt, 11pt and 12pt\n\n\\documentclass[11pt]{article}\n\nPaper Size (in)\n\n\n\nclass\nPaper size\n\n\n\n\nletterpaper\n\\(11\\times 8.5\\)\n\n\nlegalpaper\n\\(14\\times 8.5\\)\n\n\nexecutivepaper\n\\(10.5\\times 7.2\\)\n\n\na4paper\n\\(20.7 \\times 21\\)\n\n\na5paper\n\\(21 \\times 14.8\\)"
+  },
+  {
+    "objectID": "resources/introlatex.html#video-for-learning",
+    "href": "resources/introlatex.html#video-for-learning",
+    "title": "Introduction to Latex",
+    "section": "Video for Learning",
+    "text": "Video for Learning\n\n\n\n\n\n\nWarning\n\n\nThe video is 4 hours long. It is worth it..\n\n\n\nClick here to watch the video\n\n\n\nDr. Mutua Kilai,PhD"
+  },
+  {
+    "objectID": "resources/introlatex.html#using-latex-packages",
+    "href": "resources/introlatex.html#using-latex-packages",
+    "title": "Introduction to Latex",
+    "section": "Using LaTex packages",
+    "text": "Using LaTex packages\n\n\nIntroduction\n\nLaTex offers a lot of functions by default, but sometimes you need to use packages.\nTo import a package in LaTeX simply add \\usepackage directive on the preamble of your document\n\n\nSample\n\\documentclass{article}\n\\usepackage{PACKAGENAME}\n\\begin{document}\n% contents\n\\end{document}\nSummary\n\nPackages add new functions to LaTeX\nAll packages must be included in the preamble"
+  },
+  {
+    "objectID": "resources/introlatex.html#basic-document",
+    "href": "resources/introlatex.html#basic-document",
+    "title": "Introduction to Latex",
+    "section": "Basic Document",
+    "text": "Basic Document\n\n\nBasic layout\n\nCreating documents with LaTeX is simple and fun\nA basic example document can be created with the following code\n\n\\documentclass{article}\n\\begin{document}\n  Hello World!\n\\end{document}\n\nTitle Page\n\\documentclass{article}\n\\title{My first document}\n\\date{2024-11-04}\n\\author{John Doe}\n\\begin{document}\n  \\maketitle\n  \\newpage\n  Hello World!\n\\end{document}\nSummary\n\nA document has a preamble and document part."
+  },
+  {
+    "objectID": "resources/introlatex.html#sectioning-elements",
+    "href": "resources/introlatex.html#sectioning-elements",
+    "title": "Introduction to Latex",
+    "section": "Sectioning Elements",
+    "text": "Sectioning Elements\n\n\nSyntax\n\\section{} % adding a section\n\\subsection{} % add subsection\n\\subsubsection{} % add subsubsection\n\\paragraph{} % add paragraph\n\\subparagraph{} % add subparagraph\nExample Code\n\\documentclass{article}\n\\title{Title of my document}\n\\date{2024-11-04}\n\\author{John Doe}\n\\begin{document}\n    \\maketitle\n    \\section{Section}\n    Hello World!\n    \\subsection{Subsection}\n    Structuring a document is easy!\n\\end{document}\n\nOutput"
+  },
+  {
+    "objectID": "resources/introlatex.html#maths-and-equations",
+    "href": "resources/introlatex.html#maths-and-equations",
+    "title": "Introduction to Latex",
+    "section": "Maths and Equations",
+    "text": "Maths and Equations\n\n\nWe Learn\n\nInline Math\nEquations\nFractions\nMatrices\n\n\nModes of Typesetting\n\nOne is embedding the math directly into your text by encapsulating your formula in dollar signs\nThe other mode is using predefined math environment"
+  },
+  {
+    "objectID": "resources/introlatex.html#using-inline-math",
+    "href": "resources/introlatex.html#using-inline-math",
+    "title": "Introduction to Latex",
+    "section": "Using inline Math",
+    "text": "Using inline Math\n\n\n\nTo make use of inline math feature, simply write your text and if you need to typeset a single math formula, surround it with dollar signs.\n\nThe area of a circle is defined as\n$A = \\pi r^{2}$\nFor a trigonometric function\n$x = \\sin(x)$\n\n\nOutput\n\n\n\nFor centered intext equation you can use double dollar signs\n\n$$A = \\pi r^2$$"
   }
 ]
