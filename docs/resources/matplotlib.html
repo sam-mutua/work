@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Mutua Kilai, PhD - Introduction to Data Visualization</title>
+<title>Mutua Kilai, PhD - Data Visualization Using Matplotlib and Seaborn</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -154,13 +154,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
    
   <ul>
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#data-science-and-data-visualization" id="toc-data-science-and-data-visualization" class="nav-link" data-scroll-target="#data-science-and-data-visualization">Data Science and Data Visualization</a></li>
-  <li><a href="#writing-your-first-program" id="toc-writing-your-first-program" class="nav-link" data-scroll-target="#writing-your-first-program">Writing Your First Program</a>
+  <li><a href="#fundamentals-of-plots-in-python" id="toc-fundamentals-of-plots-in-python" class="nav-link" data-scroll-target="#fundamentals-of-plots-in-python">Fundamentals of Plots in Python</a>
   <ul class="collapse">
-  <li><a href="#important-requirements-anaconda-jupyter-matplotlib" id="toc-important-requirements-anaconda-jupyter-matplotlib" class="nav-link" data-scroll-target="#important-requirements-anaconda-jupyter-matplotlib">Important Requirements: Anaconda, Jupyter, Matplotlib</a></li>
+  <li><a href="#line-graph" id="toc-line-graph" class="nav-link" data-scroll-target="#line-graph">Line Graph</a>
+  <ul class="collapse">
+  <li><a href="#customizing-the-x-axis" id="toc-customizing-the-x-axis" class="nav-link" data-scroll-target="#customizing-the-x-axis">Customizing the x-axis</a></li>
+  <li><a href="#axis-labels" id="toc-axis-labels" class="nav-link" data-scroll-target="#axis-labels">Axis Labels</a></li>
+  <li><a href="#line-markers" id="toc-line-markers" class="nav-link" data-scroll-target="#line-markers">Line Markers</a></li>
+  <li><a href="#styling-the-lines" id="toc-styling-the-lines" class="nav-link" data-scroll-target="#styling-the-lines">Styling the Lines</a></li>
+  <li><a href="#using-seaborn" id="toc-using-seaborn" class="nav-link" data-scroll-target="#using-seaborn">Using Seaborn</a></li>
   </ul></li>
-  <li><a href="#python-variables-and-data-types" id="toc-python-variables-and-data-types" class="nav-link" data-scroll-target="#python-variables-and-data-types">Python Variables and Data Types</a></li>
-  <li><a href="#data-visualization-libraries" id="toc-data-visualization-libraries" class="nav-link" data-scroll-target="#data-visualization-libraries">Data Visualization Libraries</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -169,7 +173,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Introduction to Data Visualization</h1>
+<h1 class="title">Data Visualization Using Matplotlib and Seaborn</h1>
 </div>
 
 
@@ -186,212 +190,137 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="introduction" class="level1">
 <h1>Introduction</h1>
-<p>This material gives an introduction to Data Visualization in Python for Beginners.</p>
-<p>For more details you can consult the following reference materials:</p>
-<ol type="1">
-<li><p><a href="https://www.google.co.ke/books/edition/Data_Visualization_with_Python_for_Begin/RdRizQEACAAJ?hl=en">Data Visualization with Python for Beginners. <em>Visualize Your Data Using Pandas, Matplotlib and Seaborn</em></a></p></li>
-<li><p><a href="https://www.google.co.ke/books/edition/Data_Visualization_with_Python_and_JavaS/PCCTDAAAQBAJ?hl=en&amp;gbpv=0">Data Visualization with Python and JavaScript. <em>Scrape, Clean, Explore and Transform Your Data</em></a></p></li>
-</ol>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Codes are given in this tutorial. You can copy and paste them on your pc.</p>
-</div>
-</div>
-<p>Install Anaconda on your Laptop. <a href="https://docs.anaconda.com/free/anaconda/install/windows/">For details on how to install anaconda see here</a></p>
-</section>
-<section id="data-science-and-data-visualization" class="level1">
-<h1>Data Science and Data Visualization</h1>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Data Science
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This is the science of extracting and exploring data in order to find patterns that can be used to make decisions in organizations.</p>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Data Visualization
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This is a subdomain of data science where you visualize data with the help of graphs and tables in order to identify important patterns.</p>
-</div>
-</div>
-<p>Visualizing data graphically can reveal trends that otherwise may be hidden from the naked eye of a person.</p>
-<p>Data visualization is a step to important processes such as:</p>
+<p>We explore how to do various visualizations using the matplolib and seaborn libraries in Python.</p>
+<p>We shall learn the following in this tutorial:</p>
 <ul>
-<li>Data Science</li>
-<li>Machine Learning</li>
-<li>Business Intelligence</li>
-<li>Data Analytics</li>
+<li>The <strong>fundamentals</strong> of plotting figures</li>
+<li>Creating <strong>sub-plots</strong> in Python</li>
+<li>Creating <strong>animations</strong> in Python</li>
 </ul>
-<p><strong>Data Visualization is one of the important skill sets of this century if you want to secure a data science job</strong></p>
-<p>Please you can watch this video on <em>A Data Scientists Perspective of the importance of data visualization to data science</em></p>
+<p>To decide which software to use between <code>R</code> and <code>Python</code> for data visualization you can watch this video.</p>
 <div class="ratio ratio-16x9">
-<iframe width="912" height="513" src="https://www.youtube.com/embed/k8YxyrcAXJs" title="Is Data Visualization Important for Data Science? (A Data Scientist's Perspective)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+<iframe width="912" height="513" src="https://www.youtube.com/embed/gOYu9k-5ZZg" title="Python vs R for Data Visualization" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
 </div>
 </section>
-<section id="writing-your-first-program" class="level1">
-<h1>Writing Your First Program</h1>
-<p>In order to write a program in Anaconda, you have to launch Anaconda Navigator.</p>
-<p>Search <em>Anaconda Navigator</em> in your Windows Search Box. Once you click on the application the Anaconda’s dashboard will open.</p>
-<p>We will use the <em>Jupyter Notebook</em> in this resource.</p>
-<p><img src="..\files/anaconda.png" class="img-fluid"></p>
-<p>The top right corner of Jupyter Notebook’s own dashboard houses a New button, you have to click to open a new document. From the dropdown that has several options click on Python 3.</p>
-<p><img src="..\files/first.png" class="img-fluid"></p>
-<p>A new Jupyter Notebook will appear that looks like this</p>
-<p><img src="..\files/second.png" class="img-fluid"></p>
-<p>The Jupyter Notebook consists of cells that makes its <strong>layout very simple and straightforward</strong>.</p>
-<p>We can write our first program as:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Welcome to Data Visualization with Python"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<section id="important-requirements-anaconda-jupyter-matplotlib" class="level3 {callout}">
-<h3 class="anchored" data-anchor-id="important-requirements-anaconda-jupyter-matplotlib">Important Requirements: Anaconda, Jupyter, Matplotlib</h3>
-<ul>
-<li><p>All the scripts in this tutorial are written in Jupyter Notebook</p></li>
-<li><p>We will explore the following visualization modules:</p>
-<ul>
-<li>Matplotlib</li>
-<li>Seaborn</li>
-<li>Pandas</li>
-<li>Plotly</li>
-</ul></li>
-</ul>
+<section id="fundamentals-of-plots-in-python" class="level1">
+<h1>Fundamentals of Plots in Python</h1>
+<p>The first step is to install and import the libraries <code>matplolib.pylot</code> module that is used for basic plots like line and bar charts. It is often imported with the alias <code>plt</code>.</p>
+<p>We shall use the <code>seaborn</code> module for more advanced plots that is imported as <code>sns</code></p>
+<p>To install use</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install seaborn</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>on the Jupyter Notebook Environment.</p>
+<p>To call the module to the environment use</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>matplotlib inline</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>The purpose of the command <code>%matplotlib inline</code> is to ensure that the plots are shown and embedded within the Jupyter Notebook Itself.</p>
+<p>Without the command the plots may sometimes show in pop-up windows.</p>
+<section id="line-graph" class="level2">
+<h2 class="anchored" data-anchor-id="line-graph">Line Graph</h2>
+<div class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>yield_maize <span class="op">=</span> [<span class="fl">0.895</span>, <span class="fl">0.91</span>, <span class="fl">0.919</span>, <span class="fl">0.926</span>, <span class="fl">0.929</span>, <span class="fl">0.931</span>]</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>plt.plot(yield_maize)</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="matplotlib_files/figure-html/cell-2-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<section id="customizing-the-x-axis" class="level3">
+<h3 class="anchored" data-anchor-id="customizing-the-x-axis">Customizing the x-axis</h3>
+<p>We can add the <code>year</code> in the x-axis and have</p>
+<div class="cell" data-execution_count="2">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>year <span class="op">=</span> [<span class="dv">2021</span>,<span class="dv">2022</span>,<span class="dv">2023</span>,<span class="dv">2024</span>,<span class="dv">2025</span>,<span class="dv">2026</span>]</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>yield_maize <span class="op">=</span> [<span class="fl">0.895</span>, <span class="fl">0.91</span>, <span class="fl">0.919</span>, <span class="fl">0.926</span>, <span class="fl">0.929</span>, <span class="fl">0.931</span>]</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>plt.plot(year,yield_maize)</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="matplotlib_files/figure-html/cell-3-output-1.png" class="img-fluid"></p>
+</div>
+</div>
 </section>
-<p>To install a python library use the following in a Jupyter Notebook cell</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># install pandas library</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install pandas</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>To load any Python library use</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># loading library</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="axis-labels" class="level3">
+<h3 class="anchored" data-anchor-id="axis-labels">Axis Labels</h3>
+<div class="cell" data-execution_count="3">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>plt.plot(year, yield_maize)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"Year"</span>)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">"Yield"</span>)</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Yield Harvest per year"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="3">
+<pre><code>Text(0.5, 1.0, 'Yield Harvest per year')</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<p><img src="matplotlib_files/figure-html/cell-4-output-2.png" class="img-fluid"></p>
+</div>
+</div>
 </section>
-<section id="python-variables-and-data-types" class="level1">
-<h1>Python Variables and Data Types</h1>
-<p>In a programming language <strong>data types</strong> refers to the type of data that the language is capable of processing.</p>
-<p>In Python the major data types supported include:</p>
-<ul>
-<li>Strings</li>
-<li>Integers</li>
-<li>Floating Point Numbers</li>
-<li>Booleans</li>
-<li>Lists</li>
-<li>Tuples</li>
-<li>Dictionaries</li>
-</ul>
-<p>For more details see <a href="../resources/crash.html">Crash Course in Python</a></p>
+<section id="line-markers" class="level3">
+<h3 class="anchored" data-anchor-id="line-markers">Line Markers</h3>
+<p>For line graphs, you can have markers for the line you are plotting. See <a href="https://matplotlib.org/3.1.1/api/markers_api.html">full details of line markers in matplotlib</a></p>
+<div class="cell" data-execution_count="4">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>plt.plot(year, yield_maize, marker <span class="op">=</span> <span class="st">"o"</span>)</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"Year"</span>)</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">"Yield"</span>)</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Yield Harvest per year"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="4">
+<pre><code>Text(0.5, 1.0, 'Yield Harvest per year')</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<p><img src="matplotlib_files/figure-html/cell-5-output-2.png" class="img-fluid"></p>
+</div>
+</div>
 </section>
-<section id="data-visualization-libraries" class="level1">
-<h1>Data Visualization Libraries</h1>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Matplotlib
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><a href="https://matplotlib.org/">Matplotlib</a> is the default static data visualization in Python.</p>
-<p>Many wrappers libraries like Pandas and Seaborn have been developed on top of Matplolib</p>
-</div>
-</div>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Seaborn
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This library is built on top of the Matplotlib library and contains all the plotting capabilities of Matplotlib.</p>
-</div>
-</div>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Basemap
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This is an extension of the Matplotlib and is used for plotting Geographical Maps in Python</p>
-</div>
-</div>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Pandas
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Pandas library, like Seaborn, is based on the Matplotlib library and offers utilities that can be used to plot different types of static plots in a single line of codes.</p>
-</div>
-</div>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Plotly
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Plotly is an online data visualization platform that supports interactive data visualization. More will be explored.</p>
-</div>
-</div>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Importance of Data Visualization
-</div>
-</div>
-<div class="callout-body-container callout-body">
+<section id="styling-the-lines" class="level3">
+<h3 class="anchored" data-anchor-id="styling-the-lines">Styling the Lines</h3>
+<p>The function <code>plt.plot</code> supports many arguments for styling markers and the lines</p>
 <ul>
-<li><p>A good visualization:</p>
-<ul>
-<li>Communicates a piece of complex information in a simple, clear and concise manner to top business leaders</li>
-<li>Enables users focus on actionable insights</li>
-<li>Provides insights and story to establish business goals by giving attention to unnoticed patterns</li>
-<li>Helps businesses make real-time decisions</li>
-</ul></li>
+<li><code>color</code> or <code>c</code> This sets the line color</li>
+<li><code>ls</code> Gives you to choose between solid or dashed line</li>
+<li><code>lw</code> sets the line width</li>
 </ul>
+<p>To see more details of the function <a href="https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html">see the documentation</a></p>
+</section>
+<section id="using-seaborn" class="level3">
+<h3 class="anchored" data-anchor-id="using-seaborn">Using Seaborn</h3>
+<p>To make your chart more appeasing you use some default styles form Seaborn library.</p>
+<section id="whitegrid-style" class="level4">
+<h4 class="anchored" data-anchor-id="whitegrid-style">Whitegrid style</h4>
+<div class="cell" data-execution_count="5">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>sns.set_style(<span class="st">"whitegrid"</span>)</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>plt.plot(year, yield_maize, marker <span class="op">=</span> <span class="st">"o"</span>)</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"Year"</span>)</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">"Yield"</span>)</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Yield Harvest per year"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="5">
+<pre><code>Text(0.5, 1.0, 'Yield Harvest per year')</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<p><img src="matplotlib_files/figure-html/cell-6-output-2.png" class="img-fluid"></p>
+</div>
+</div>
+</section>
+<section id="darkgrid-style" class="level4">
+<h4 class="anchored" data-anchor-id="darkgrid-style">darkgrid style</h4>
+<div class="cell" data-execution_count="6">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>sns.set_style(<span class="st">"darkgrid"</span>)</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>plt.plot(year, yield_maize, marker <span class="op">=</span> <span class="st">"o"</span>)</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"Year"</span>)</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">"Yield"</span>)</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Yield Harvest per year"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="6">
+<pre><code>Text(0.5, 1.0, 'Yield Harvest per year')</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<p><img src="matplotlib_files/figure-html/cell-7-output-2.png" class="img-fluid"></p>
 </div>
 </div>
 
 
+</section>
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->

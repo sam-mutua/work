@@ -1,0 +1,124 @@
+---
+title: "Data Visualization Using Matplotlib and Seaborn"
+jupyter: python3
+---
+
+# Introduction
+
+We explore how to do various visualizations using the matplolib and seaborn libraries in Python.
+
+We shall learn the following in this tutorial:
+
+- The **fundamentals** of plotting figures
+- Creating **sub-plots** in Python
+- Creating **animations** in Python
+
+To decide which software to use between `R` and `Python` for data visualization you can watch this video.
+
+<div class= "ratio ratio-16x9">
+<iframe width="912" height="513" src="https://www.youtube.com/embed/gOYu9k-5ZZg" title="Python vs R for Data Visualization" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+# Fundamentals of Plots in Python
+
+The first step is to install and import the libraries `matplolib.pylot` module that is used for basic plots like line and bar charts. It is often imported with the alias `plt`.
+
+We shall use the `seaborn` module for more advanced plots that is imported as `sns`
+
+To install use
+
+```python
+!pip install seaborn
+```
+
+on the Jupyter Notebook Environment.
+
+To call the module to the environment use
+
+```python
+import matplotlib.pyplot as plt
+import seaborn as sns
+%matplotlib inline
+```
+
+The purpose of the command `%matplotlib inline` is to ensure that the plots are shown and embedded within the Jupyter Notebook Itself.
+
+Without the command the plots may sometimes show in pop-up windows. 
+
+## Line Graph
+
+```{python}
+import matplotlib.pyplot as plt
+import seaborn as sns
+yield_maize = [0.895, 0.91, 0.919, 0.926, 0.929, 0.931]
+plt.plot(yield_maize)
+plt.show()
+```
+
+
+### Customizing the x-axis
+
+We can add the `year` in the x-axis and have
+
+```{python}
+year = [2021,2022,2023,2024,2025,2026]
+yield_maize = [0.895, 0.91, 0.919, 0.926, 0.929, 0.931]
+plt.plot(year,yield_maize)
+plt.show()
+```
+
+### Axis Labels
+
+```{python}
+plt.plot(year, yield_maize)
+plt.xlabel("Year")
+plt.ylabel("Yield")
+plt.title("Yield Harvest per year")
+```
+
+### Line Markers
+
+For line graphs, you can have markers for the line you are plotting. See [full details of line markers in matplotlib](https://matplotlib.org/3.1.1/api/markers_api.html)
+
+```{python}
+plt.plot(year, yield_maize, marker = "o")
+plt.xlabel("Year")
+plt.ylabel("Yield")
+plt.title("Yield Harvest per year")
+```
+
+### Styling the Lines
+
+The function `plt.plot` supports many arguments for styling markers and the lines
+
+- `color` or `c` This sets the line color
+- `ls` Gives you to choose between solid or dashed line
+- `lw` sets the line width
+
+To see more details of the function [see the documentation](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html)
+
+
+### Using Seaborn 
+
+To make your chart more appeasing you use some default styles form Seaborn library.
+
+#### Whitegrid style
+
+```{python}
+sns.set_style("whitegrid")
+plt.plot(year, yield_maize, marker = "o")
+plt.xlabel("Year")
+plt.ylabel("Yield")
+plt.title("Yield Harvest per year")
+```
+
+
+#### darkgrid style
+
+```{python}
+sns.set_style("darkgrid")
+plt.plot(year, yield_maize, marker = "o")
+plt.xlabel("Year")
+plt.ylabel("Yield")
+plt.title("Yield Harvest per year")
+```

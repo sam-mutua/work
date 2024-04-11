@@ -163,3 +163,15 @@ Pandas library, like Seaborn, is based on the Matplotlib library and offers util
 ### Plotly
 Plotly is an online data visualization platform that supports interactive data visualization. More will be explored.
 :::
+
+
+:::{.callout-important}
+### Importance of Data Visualization
+- A good visualization:
+
+  * Communicates a piece of complex information in a simple, clear and concise manner to top business leaders
+  * Enables users focus on actionable insights
+  * Provides insights and story to establish business goals by giving attention to unnoticed patterns
+  * Helps businesses make real-time decisions
+
+:::
