@@ -13,7 +13,7 @@ This page provides a variety of resources on various areas including:
 
 ::: {.g-col-4}
 ### Latex Resources
-- [Introduction to Latex](resources/introlatex.qmd)
+
 
 :::
 
