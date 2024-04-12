@@ -1,0 +1,65 @@
+---
+title: "Big Data Analytics"
+---
+
+# Introduction
+
+**Analytics** is defined as the process of extracting and creating information from new data by the process of filtering and bringing data into context
+
+
+## Types of Analytics
+
+### Descriptive Analytics
+
+- This comprises of analyzing past data to present it in a summarized form which can be easily interpreted.
+
+- The aim is to answer the question *What happened*
+
+### Diagnostic Analytics
+
+- This is the analysis of past data to diagnose the reasons as to why certain events happened 
+
+- The aim is to answer the question *Why did it happen*
+
+
+### Predictive Analytics
+
+- This comprises of predicting the occurence of an event or likely outcome of an event
+
+- The aim is to answer *What is likely to happen*
+
+
+### Prescriptive Analytics
+
+- This uses multiple prediction models to predict the various outcomes and best course of action for each outcome
+
+- The aim is to answer *What can we do to make it happen*
+
+A summary is given in Table below:
+
+| Analytics    | What it Entails                  |
+|--------------|----------------------------------|
+| Descriptive  | What happened                    |
+| Diagnostic   | Why did it happen                |
+| Predictive   | What is likely to happen         |
+| Prescriptive | What can we do to make it happen |
+
+
+# Big Data
+
+- This is a collection of datasets whose volume, velocity or variety is too large that it is difficult to store and manage it using traditional databases
+
+
+## Characteristics of Big Data
+
+- *Volume*: The data is so large that it cannot fit on a single machine therefore need specialized tools.
+
+- *Velocity* This refers to how fast the data is generated
+
+- *Variety*: This refers to the forms of the data; structured, unstructured and semi-structured.
+
+- *Veracity* This is how accurate the data is
+
+- *Value* The usefulness of the data for the intended purpose
+
+

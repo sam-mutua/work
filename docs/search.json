@@ -18,7 +18,7 @@
     "href": "resources.html",
     "title": "Statistical Resources",
     "section": "",
-    "text": "This page provides a variety of resources on various areas including:\n\nLatex Software\nR\nPython\nR Package Development\n\n\n\nLatex Resources\n\n\nR Resources\n\nIntroduction to R\n\n\n\nPython Resources\n\nCrash Course in Python\n\n\n\n\n\nData Visualization in R\n\n\nData Visualization in Python\n\nIntroduction to Visualization\nData Visualization Using Matplotlib and Seaborn\n\n\n\nData Mining"
+    "text": "This page provides a variety of resources on various areas including:\n\nLatex Software\nR\nPython\nR Package Development\n\n\n\nLatex Resources\n\nLaTeX Seminar Training\n\n\n\nR Resources\n\nIntroduction to R\n\n\n\nPython Resources\n\nCrash Course in Python\n\n\n\n\n\nData Visualization in R\n\n\nData Visualization in Python\n\nIntroduction to Visualization\nData Visualization Using Matplotlib and Seaborn\n\n\n\nBig Data Analytics\n\nIntroduction to Big Data"
   },
   {
     "objectID": "publication.html",
@@ -250,5 +250,26 @@
     "title": "Introduction to Latex",
     "section": "Using inline Math",
     "text": "Using inline Math\n\n\n\nTo make use of inline math feature, simply write your text and if you need to typeset a single math formula, surround it with dollar signs.\n\nThe area of a circle is defined as\n$A = \\pi r^{2}$\nFor a trigonometric function\n$x = \\sin(x)$\n\n\nOutput\n\n\n\nFor centered intext equation you can use double dollar signs\n\n$$A = \\pi r^2$$"
+  },
+  {
+    "objectID": "resources/bigdata.html",
+    "href": "resources/bigdata.html",
+    "title": "Big Data Analytics",
+    "section": "",
+    "text": "Analytics is defined as the process of extracting and creating information from new data by the process of filtering and bringing data into context\n\n\n\n\n\nThis comprises of analyzing past data to present it in a summarized form which can be easily interpreted.\nThe aim is to answer the question What happened\n\n\n\n\n\nThis is the analysis of past data to diagnose the reasons as to why certain events happened\nThe aim is to answer the question Why did it happen\n\n\n\n\n\nThis comprises of predicting the occurence of an event or likely outcome of an event\nThe aim is to answer What is likely to happen\n\n\n\n\n\nThis uses multiple prediction models to predict the various outcomes and best course of action for each outcome\nThe aim is to answer What can we do to make it happen\n\nA summary is given in Table below:\n\n\n\nAnalytics\nWhat it Entails\n\n\n\n\nDescriptive\nWhat happened\n\n\nDiagnostic\nWhy did it happen\n\n\nPredictive\nWhat is likely to happen\n\n\nPrescriptive\nWhat can we do to make it happen"
+  },
+  {
+    "objectID": "resources/bigdata.html#types-of-analytics",
+    "href": "resources/bigdata.html#types-of-analytics",
+    "title": "Big Data Analytics",
+    "section": "",
+    "text": "This comprises of analyzing past data to present it in a summarized form which can be easily interpreted.\nThe aim is to answer the question What happened\n\n\n\n\n\nThis is the analysis of past data to diagnose the reasons as to why certain events happened\nThe aim is to answer the question Why did it happen\n\n\n\n\n\nThis comprises of predicting the occurence of an event or likely outcome of an event\nThe aim is to answer What is likely to happen\n\n\n\n\n\nThis uses multiple prediction models to predict the various outcomes and best course of action for each outcome\nThe aim is to answer What can we do to make it happen\n\nA summary is given in Table below:\n\n\n\nAnalytics\nWhat it Entails\n\n\n\n\nDescriptive\nWhat happened\n\n\nDiagnostic\nWhy did it happen\n\n\nPredictive\nWhat is likely to happen\n\n\nPrescriptive\nWhat can we do to make it happen"
+  },
+  {
+    "objectID": "resources/bigdata.html#characteristics-of-big-data",
+    "href": "resources/bigdata.html#characteristics-of-big-data",
+    "title": "Big Data Analytics",
+    "section": "Characteristics of Big Data",
+    "text": "Characteristics of Big Data\n\nVolume: The data is so large that it cannot fit on a single machine therefore need specialized tools.\nVelocity This refers to how fast the data is generated\nVariety: This refers to the forms of the data; structured, unstructured and semi-structured.\nVeracity This is how accurate the data is\nValue The usefulness of the data for the intended purpose"
   }
 ]
