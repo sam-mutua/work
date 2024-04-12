@@ -24,6 +24,8 @@ website:
         file: resources.qmd
       - text: "Publications"
         file: publication.qmd
+      - text: "CV/Resume"
+        
 
 format:
   html:

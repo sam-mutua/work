@@ -14,7 +14,7 @@ This combines both theoretical and practical courses i have taught at the follow
 
 -   [SDS 3122 Programming for Data Science](https://sam-mutua.github.io/SDS3121/)
 
--   [STA 3111 Theory of Estimation]()
+-   [STA 3111 Theory of Estimation](https://sam-mutua.github.io/STA3111/)
 
 -   [STA 3102 Theory of Linear Models]()
 
