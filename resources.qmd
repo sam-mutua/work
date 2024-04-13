@@ -14,7 +14,7 @@ This page provides a variety of resources on various areas including:
 ::: {.g-col-4}
 ### Latex Resources
 
-- [LaTeX Seminar Training](https://sam-mutua.github.io/kyu-pas-latex-seminar/)
+- [LaTeX Seminar Training](https://sam-mutua.github.io/pas-seminar/)
 
 :::
 
