@@ -271,5 +271,12 @@
     "title": "Big Data Analytics",
     "section": "Characteristics of Big Data",
     "text": "Characteristics of Big Data\n\nVolume: The data is so large that it cannot fit on a single machine therefore need specialized tools.\nVelocity This refers to how fast the data is generated\nVariety: This refers to the forms of the data; structured, unstructured and semi-structured.\nVeracity This is how accurate the data is\nValue The usefulness of the data for the intended purpose"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV/RESUME",
+    "section": "",
+    "text": "You can view my Curriculum Vitae"
   }
 ]
