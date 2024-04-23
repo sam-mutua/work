@@ -12,6 +12,10 @@ This combines both theoretical and practical courses i have taught at the follow
 
 #### Post-Graduate
 
+- [SDS 3120 Data Mining](https://sam-mutua.github.io/datamin23/)
+
+- [STA 3118 Research Methodology](https://sam-mutua.github.io/compmethods-resmethods/)
+
 -   [SDS 3122 Programming for Data Science](https://sam-mutua.github.io/SDS3121/)
 
 -   [STA 3111 Theory of Estimation](https://sam-mutua.github.io/STA3111/)
