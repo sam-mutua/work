@@ -4,81 +4,72 @@ title: "Consulting Services"
 
 Since 2018 i have worked as an independent statistical consultant for nonprofit community organizations. The experiences working with range of different clients, providing scientific expertise and being able to explain technical concepts and be able to communicate results clearly.
 
-
 ::: {.grid .course-details .course-details-smaller}
 ::: g-col-4
 ### Programming
 
-- R Software {{< fa brands r-project >}}
+-   R Software {{< fa brands r-project >}}
 
-- Python Software {{< fa brands python >}}
-
+-   Python Software {{< fa brands python >}}
 :::
 
 ::: g-col-4
 ### Databases
 
-- SQL
+-   SQL
 
-- MySQL
+-   MySQL
 :::
 
 ::: g-col-4
-
 ### Statistics Software
 
-- SAS
+-   SAS
 
-- STATA
+-   STATA
 
-- SPSS
-
+-   SPSS
 :::
 :::
-
 
 ::: {.grid .course-details .course-details-smaller}
 ::: g-col-4
 ### Data Collection
 
-- Open Data Kit (ODK)
+-   Open Data Kit (ODK)
 
-- Survey CTO
+-   Survey CTO
 
-- CSPro
+-   CSPro
 
-- KoboCollect
-
+-   KoboCollect
 :::
 
 ::: g-col-4
 ### Machine Learning
 
-- Supervised and Unsupervised Learning
+-   Supervised and Unsupervised Learning
 
-- Time Series
+-   Time Series
 
-- Deep Learning
+-   Deep Learning
 
-- Reinforcement Learning
+-   Reinforcement Learning
 
-- Natural Language Processing
+-   Natural Language Processing
 :::
 
 ::: g-col-4
-
 ### Visualization
 
-- Shiny
+-   Shiny
 
-- Dash
+-   Dash
 
-- Power BI
+-   Power BI
 
-- Tableau
-
+-   Tableau
 :::
 :::
-
 
 For more details contact [Dr.Mutua Kilai](https://twitter.com/SamKMutua)
