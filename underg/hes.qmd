@@ -1,0 +1,39 @@
+---
+title: "Design and Analysis of Experiments II"
+---
+
+# Course Purpose
+
+To equip learners with knowledge and skills in simple and standard designs, their analysis and interpretation.
+
+
+# Course Outcomes
+
+At the end of this course learners should be able to:
+
+- Explain the principle of Experimentation
+
+- Describe the use of ANOVA to solve problems
+
+- Describe and analyse standard experimental design
+
+- Discuss construction of a sample orthogonal latin square and factorial design
+
+
+# Course Notes
+
+- [Course Description](/pdf/Course Description.pdf)
+
+- [Review of Experimental and Statistical Objectives](/pdf/HES-2213-Lesson-I.pdf)
+
+- [Balanced Incomplete Block Design](/pdf/HES-2213-Lesson-2.pdf)
+
+- [Partially Balanced Incomplete Block Design](/pdf/HES-2213-Lesson-3.pdf)
+
+- [Latin Square Designs](/pdf/Latin-Square-Designs.pdf)
+
+- [Lattice Designs](/pdf/Lattice Designs.pdf)
+
+- [Factorial Designs](/pdf/Factorial Designs Introduction.pdf)
+
+- [Split-Plot Designs](/pdf/Split-Plot-Design-Lecture-Notes.pdf)

@@ -1,30 +1,31 @@
 ---
 title: ""
+sidebar: false
 ---
 
 This page contains the list of publications by year.
 
 # 2023
 
-1. [Statistical Properties of the Exponentiated Alpha Power Inverted Exponential distribution and its Application](https://www.researchgate.net/profile/Moses-Kargbo/publication/378151156_Statistical_Properties_of_the_Exponentiated_Alpha_Power_Inverted_Exponential_distribution_and_its_Application/links/65ca6e271bed776ae34cd32d/Statistical-Properties-of-the-Exponentiated-Alpha-Power-Inverted-Exponential-distribution-and-its-Application.pdf)
+1.  [Statistical Properties of the Exponentiated Alpha Power Inverted Exponential distribution and its Application](https://www.researchgate.net/profile/Moses-Kargbo/publication/378151156_Statistical_Properties_of_the_Exponentiated_Alpha_Power_Inverted_Exponential_distribution_and_its_Application/links/65ca6e271bed776ae34cd32d/Statistical-Properties-of-the-Exponentiated-Alpha-Power-Inverted-Exponential-distribution-and-its-Application.pdf)
 
-2. [Power unit Gumbel type II distribution: Statistical properties, regression analysis, and applications](https://pubs.aip.org/aip/adv/article/13/11/115124/2923256)
+2.  [Power unit Gumbel type II distribution: Statistical properties, regression analysis, and applications](https://pubs.aip.org/aip/adv/article/13/11/115124/2923256)
 
-3. [Bivariate power Lomax distribution with medical applications](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0282581)
+3.  [Bivariate power Lomax distribution with medical applications](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0282581)
 
-4. [Use of Wavelet and Bootstrap Methods in Streamflow Prediction](https://www.hindawi.com/journals/jmath/2023/4222934/)
+4.  [Use of Wavelet and Bootstrap Methods in Streamflow Prediction](https://www.hindawi.com/journals/jmath/2023/4222934/)
 
 # 2022
 
-5. [Statistical modeling for COVID 19 infected patient’s data in Kingdom of Saudi Arabia](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0276688)
+5.  [Statistical modeling for COVID 19 infected patient’s data in Kingdom of Saudi Arabia](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0276688)
 
-6. [X-Gamma Lomax Distribution with Different Applications](https://journals.ekb.eg/article_266566.html)
+6.  [X-Gamma Lomax Distribution with Different Applications](https://journals.ekb.eg/article_266566.html)
 
-7. [A Flexible Extension of Reduced Kies Distribution: Properties, Inference, and Applications in Biology](https://www.hindawi.com/journals/complexity/2022/6078567/)
+7.  [A Flexible Extension of Reduced Kies Distribution: Properties, Inference, and Applications in Biology](https://www.hindawi.com/journals/complexity/2022/6078567/)
 
-8. [Information Approach for Change Point Analysis of EGGAPE Distribution and Application to COVID-19 Data](https://www.hindawi.com/journals/mpe/2022/9924902/)
+8.  [Information Approach for Change Point Analysis of EGGAPE Distribution and Application to COVID-19 Data](https://www.hindawi.com/journals/mpe/2022/9924902/)
 
-9. [Supervised ML Algorithms in the High Dimensional Applications for Dimension Reduction](https://www.hindawi.com/journals/mpe/2022/5816145/)
+9.  [Supervised ML Algorithms in the High Dimensional Applications for Dimension Reduction](https://www.hindawi.com/journals/mpe/2022/5816145/)
 
 10. [Novel Type i Half Logistic Burr-Weibull Distribution: Application to COVID-19 Data](https://www.hindawi.com/journals/cmmm/2022/1444859/)
 

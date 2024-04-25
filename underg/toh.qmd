@@ -1,0 +1,36 @@
+---
+title: "Tests of Hypothesis"
+---
+
+# Course Purpose
+
+To provide a solid and rigorous treatment of inferential problems, statistical methodologies and the underlying concepts and theory of statistical hypothesis.
+
+# Course Outcomes
+
+At the end of this course learners should be able to:
+
+- Discuss the types of statistical hypothesis
+
+- Demonstrate a thorough insight into the essentials of statistical inference
+
+- Differentiate type I and II errors
+
+- Test the significance of statistical inference
+
+
+# Course Notes
+
+- [Course Outline](/pdf/SPS-2349-TOH.pdf)
+
+- [Introduction and Basics in TOH](/pdf/Lesson-I.pdf)
+
+- [Uniformly Most Powerful Test](/pdf/Lesson-II.pdf)
+
+- [Neyman Pearson Lemma](/pdf/Neyman-Pearson-Lesson.pdf)
+
+- [Two sided Alternative](/pdf/Two-sided-alternative-Lesson.pdf)
+
+- [Generalized Likelihood Test](/pdf/Week Five Lecture.pdf)
+
+- [Testing Independence of two populations, correlation and regression](/pdf/Lecture-Six.pdf)

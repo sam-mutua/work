@@ -1,5 +1,6 @@
 ---
 title: "Introduction to Data Visualization"
+sidebar: false
 ---
 
 # Introduction

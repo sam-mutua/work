@@ -1,5 +1,6 @@
 ---
 title: ""
+sidebar: false
 about:
   template: trestles
   image: files/photo.jpeg

@@ -1,18 +1,16 @@
 ---
 title: "Course Websites for Post-Graduate Students"
+sidebar: false
 ---
 
 Below is a list of the post-graduate courses I have taught at [Kirinyaga University](https://www.kyu.ac.ke/).
 
+-   [SDS 3120 Data Mining](https://sam-mutua.github.io/datamin23/)
 
-
-- [SDS 3120 Data Mining](https://sam-mutua.github.io/datamin23/)
-
-- [STA 3118 Research Methodology](https://sam-mutua.github.io/compmethods-resmethods/)
+-   [STA 3118 Research Methodology](https://sam-mutua.github.io/compmethods-resmethods/)
 
 -   [SDS 3122 Programming for Data Science](https://sam-mutua.github.io/SDS3121/)
 
 -   [STA 3111 Theory of Estimation](https://sam-mutua.github.io/STA3111/)
 
 -   [STA 3102 Theory of Linear Models]()
-

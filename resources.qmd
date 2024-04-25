@@ -1,59 +1,51 @@
 ---
 title: "Statistical Resources"
+sidebar: false
 ---
 
 This page provides a variety of resources on various areas including:
 
-* Latex Software
-* R
-* Python
-* R Package Development
+-   Latex Software
+-   R
+-   Python
+-   R Package Development
 
-:::: {.grid .course-details .course-details-smaller}
-
-::: {.g-col-4}
+::: {.grid .course-details .course-details-smaller}
+::: g-col-4
 ### Latex Resources
 
-- [LaTeX Seminar Training](https://sam-mutua.github.io/pas-seminar/)
-
+-   [LaTeX Seminar Training](https://sam-mutua.github.io/pas-seminar/)
 :::
 
-::: {.g-col-4}
+::: g-col-4
 ### R Resources
 
-- [Introduction to R](resources/intro.qmd)
+-   [Introduction to R](resources/intro.qmd)
 :::
 
-::: {.g-col-4}
+::: g-col-4
 ### Python Resources
-- [Crash Course in Python](resources/crash.qmd)
 
+-   [Crash Course in Python](resources/crash.qmd)
 :::
-::::
+:::
 
-
-:::: {.grid .course-details .course-details-smaller}
-
-::: {.g-col-4}
+::: {.grid .course-details .course-details-smaller}
+::: g-col-4
 ### Data Visualization in R
-
-
 :::
 
-::: {.g-col-4}
+::: g-col-4
 ### Data Visualization in Python
 
-- [Introduction to Visualization](resources/datavizpython.qmd)
+-   [Introduction to Visualization](resources/datavizpython.qmd)
 
-- [Data Visualization Using Matplotlib and Seaborn](resources/matplotlib.qmd)
-
+-   [Data Visualization Using Matplotlib and Seaborn](resources/matplotlib.qmd)
 :::
 
-::: {.g-col-4}
+::: g-col-4
 ### Big Data Analytics
 
-- [Introduction to Big Data](resources/bigdata.qmd)
-
-
+-   [Introduction to Big Data](resources/bigdata.qmd)
 :::
-::::
+:::

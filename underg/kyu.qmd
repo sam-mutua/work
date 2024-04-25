@@ -1,0 +1,42 @@
+---
+title: "Statistical Model Building"
+---
+
+# Course Purpose
+
+To enable the learner to construct mathematical description of some real-world phenomena that accounts for the uncertainty and/or randomness involved in that system. 
+
+
+# Learning Outcomes
+
+By the end of the course the learner should be able to:
+
+- Describe a non-linear regression model
+
+- Discuss the asymptotic properties of non-linear least squares estimators
+
+- Describe the concepts of mixed models
+
+- Estimate functions in non-parametric regression functions
+
+- Explain the concepts of non-parametric regression functions
+
+# Course Notes
+
+The Course Notes prepared are as follows:
+
+- [Course Outline](/pdf/Course Outline.pdf)
+
+- [Introduction to Statistical Model Building](/pdf/Lecture One Notes.pdf)
+
+- [Model Building and Variable Selection](/pdf/Lesson-Two.pdf)
+
+- [Contigency Tables](/pdf/Lesson-Three.pdf)
+
+- [Generalized Linear Models](/pdf/Lesson-Four.pdf)
+
+- [Logistic Regression](/pdf/Logistic Regression.pdf)
+
+- [Poisson Regression](/pdf/Generalized-Linear-Models.pdf)
+
+- [Ridge Regression Notes](/pdf/Ridge Regression Notes.pdf)

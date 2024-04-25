@@ -1,0 +1,42 @@
+---
+title: "Survival Analysis"
+---
+
+# Course Purpose
+
+To impart skills on estimation of transition intensities/survival rates
+
+
+# Course Outcomes
+
+At the end of the course learners should be able to:
+
+- Apply principles of actuarial modeling in solving insurance problems
+
+- Apply statistical models in approximations and estimations
+
+- Determine the survival function and hazard function
+
+- Determine age dependent transition intensities
+
+
+# Course Notes
+
+- [Course Description](/pdf/SPA-2403-Survival-Analysis.pdf)
+
+- [Introduction to Survival Analysis](/pdf/SPA-2403-Lesson-One.pdf)
+
+- [Kaplan Meier Estimate](/pdf/SPA-2403-KM-ESTIMATE.pdf)
+
+- [More on Kaplan Meier Estimate](/pdf/Lecture-Three.pdf)
+
+- [Nelson Aalen Estimator](/pdf/Nelson-Aalen-Estimator.pdf)
+
+- [Cox-PH models](/pdf/Cox-PH-Models.pdf)
+
+- [Poisson and Binomia models](/pdf/Poisson Models.pdf)
+
+- [Exposed to Risk](/pdf/Exposed toRisk.pdf)
+
+- [More Notes](/pdf/SPA-2403-Notes.pdf)
+

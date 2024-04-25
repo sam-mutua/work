@@ -29,7 +29,23 @@ website:
         file: publication.qmd
       - text: "CV"
         file: cv.qmd
-      
+  sidebar:
+    - title: "Undergraduate Courses"
+      background: light
+      contents: 
+        - section: "Introduction"
+          contents: 
+            - underg/index.qmd
+        - section: "Kirinyaga University"
+          contents: 
+            - text: "SPS 2467 Statistical Model Building"
+              file: underg/kyu.qmd
+            - text: "SPS 2349 Tests of Hypothesis"
+              file: underg/toh.qmd
+            - text: "HES 2213 Design and Analysis of Experiments II"
+              file: underg/hes.qmd
+            - text: "SPA 2403 Survival Analysis"
+              file: underg/surv.qmd
 
 format:
   html:
