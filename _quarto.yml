@@ -19,8 +19,10 @@ website:
         file: index.qmd
       - text: "Consulting Services"
         file: consulting.qmd
-      - text: "Lecture Notes"
+      - text: "Post-Graduate Courses"
         file: teaching.qmd
+      - text: "Undergraduate Courses"
+        file: undergraduate.qmd
       - text: "Resources"
         file: resources.qmd
       - text: "Publications"

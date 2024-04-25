@@ -1,0 +1,31 @@
+---
+title: "Undergraduate Courses"
+---
+
+This combines both theoretical and practical courses I have taught at undegraduate level at the following Universities [Kirinyaga University](https://www.kyu.ac.ke/) and [JKUAT](https://www.jkuat.ac.ke/).
+
+# Kirinyaga University
+
+-   [STA 2467 Statistical Model Building]()
+
+-   [HES 2213 Design and Analysis of Experiments II]()
+
+-   [SPS 2349 Tests of Hypothesis]()
+
+-   [SPA 2405 Survival Analysis]()
+
+# JKUAT University
+
+
+-   [STA 2205 Statistical Programming]()
+
+-   [STA 2416 Statistical Computing]()
+
+-   [STA 2203 Time Series Analysis]()
+
+-   [STA 2440 Econometrics]()
+
+-   [STA 2432 Principles of Linear Models]()
+
+-   [STA 2430 Statistical Quality Control]()
+

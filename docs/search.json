@@ -9,9 +9,9 @@
   {
     "objectID": "teaching.html",
     "href": "teaching.html",
-    "title": "Lecture Notes",
+    "title": "Course Websites for Post-Graduate Students",
     "section": "",
-    "text": "Below is a list of the courses i have taught under various levels.\nThis combines both theoretical and practical courses i have taught at the following Universities Kirinyaga University and JKUAT.\n\n\nKirinyaga University\n\nPost-Graduate\n\nSDS 3120 Data Mining\nSTA 3118 Research Methodology\nSDS 3122 Programming for Data Science\nSTA 3111 Theory of Estimation\nSTA 3102 Theory of Linear Models\n\n\n\nUndergraduate\n\nSTA 2467 Statistical Model Building\nHES 2213 Design and Analysis of Experiments II\nSPS 2349 Tests of Hypothesis\nSPA 2405 Survival Analysis\n\n\n\n\nJKUAT University\n\nUndergraduate\n\nSTA 2205 Statistical Programming\nSTA 2416 Statistical Computing\nSTA 2203 Time Series Analysis\nSTA 2440 Econometrics\nSTA 2432 Principles of Linear Models\nSTA 2430 Statistical Quality Control"
+    "text": "Below is a list of the post-graduate courses I have taught at Kirinyaga University.\n\nSDS 3120 Data Mining\nSTA 3118 Research Methodology\nSDS 3122 Programming for Data Science\nSTA 3111 Theory of Estimation\nSTA 3102 Theory of Linear Models"
   },
   {
     "objectID": "resources.html",
@@ -278,5 +278,12 @@
     "title": "CV/RESUME",
     "section": "",
     "text": "You can view my Curriculum Vitae"
+  },
+  {
+    "objectID": "undergraduate.html",
+    "href": "undergraduate.html",
+    "title": "Undergraduate Courses",
+    "section": "",
+    "text": "This combines both theoretical and practical courses I have taught at undegraduate level at the following Universities Kirinyaga University and JKUAT.\n\nKirinyaga University\n\nSTA 2467 Statistical Model Building\nHES 2213 Design and Analysis of Experiments II\nSPS 2349 Tests of Hypothesis\nSPA 2405 Survival Analysis\n\n\n\nJKUAT University\n\nSTA 2205 Statistical Programming\nSTA 2416 Statistical Computing\nSTA 2203 Time Series Analysis\nSTA 2440 Econometrics\nSTA 2432 Principles of Linear Models\nSTA 2430 Statistical Quality Control"
   }
 ]
