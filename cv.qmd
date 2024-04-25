@@ -1,5 +1,6 @@
 ---
 title: "CV/RESUME"
+sidebar: false
 ---
 
 You can view my [Curriculum Vitae](/files/Resume.pdf)
