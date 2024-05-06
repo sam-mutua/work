@@ -6,3 +6,4 @@ sidebar: true
 This combines both theoretical and practical courses I have taught at undergraduate level at the following Universities [Kirinyaga University](https://www.kyu.ac.ke/) and [JKUAT](https://www.jkuat.ac.ke/).
 
 
+- [Kirinyaga University Courses](underg/index.qmd)
