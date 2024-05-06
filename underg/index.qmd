@@ -2,8 +2,8 @@
 title: "Contents"
 ---
 
-This gives the lecture notes and sample cat papers for the units. 
+This gives the lecture notes and sample cat papers for the units.
 
-:::{.callout-warning}
+::: callout-warning
 **Disclaimer: Some of the Notes may be incomplete.**
 :::

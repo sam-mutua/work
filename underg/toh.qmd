@@ -10,27 +10,26 @@ To provide a solid and rigorous treatment of inferential problems, statistical m
 
 At the end of this course learners should be able to:
 
-- Discuss the types of statistical hypothesis
+-   Discuss the types of statistical hypothesis
 
-- Demonstrate a thorough insight into the essentials of statistical inference
+-   Demonstrate a thorough insight into the essentials of statistical inference
 
-- Differentiate type I and II errors
+-   Differentiate type I and II errors
 
-- Test the significance of statistical inference
-
+-   Test the significance of statistical inference
 
 # Course Notes
 
-- [Course Outline](/pdf/SPS-2349-TOH.pdf)
+-   [Course Outline](/pdf/SPS-2349-TOH.pdf)
 
-- [Introduction and Basics in TOH](/pdf/Lesson-I.pdf)
+-   [Introduction and Basics in TOH](/pdf/Lesson-I.pdf)
 
-- [Uniformly Most Powerful Test](/pdf/Lesson-II.pdf)
+-   [Uniformly Most Powerful Test](/pdf/Lesson-II.pdf)
 
-- [Neyman Pearson Lemma](/pdf/Neyman-Pearson-Lesson.pdf)
+-   [Neyman Pearson Lemma](/pdf/Neyman-Pearson-Lesson.pdf)
 
-- [Two sided Alternative](/pdf/Two-sided-alternative-Lesson.pdf)
+-   [Two sided Alternative](/pdf/Two-sided-alternative-Lesson.pdf)
 
-- [Generalized Likelihood Test](/pdf/Week Five Lecture.pdf)
+-   [Generalized Likelihood Test](/pdf/Week%20Five%20Lecture.pdf)
 
-- [Testing Independence of two populations, correlation and regression](/pdf/Lecture-Six.pdf)
+-   [Testing Independence of two populations, correlation and regression](/pdf/Lecture-Six.pdf)
