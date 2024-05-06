@@ -25,14 +25,13 @@ When specifying data in Altair we use pandas Data Frame objects.
 
 Use of pandas Data Frame will prompt altair to store entire data set in JSON format.
 
-
 The syntax for altair is equivalent to the `ggplot` function in R.
 
 The `ggplot()` function one provides the following:
 
-- data
-- geom function
-- collection of mapping
+-   data
+-   geom function
+-   collection of mapping
 
 The `altair` syntax is given as follows:
 
@@ -47,14 +46,13 @@ The `altair` syntax is given as follows:
 
 An encoding is a visual property of the objects in your plot and they include things like:
 
-- size
-- shape
-- color of your points
+-   size
+-   shape
+-   color of your points
 
 # Basic Scatter Plot
 
-We demonstrate how to use the altair library we load the `faithful` data set from this [repository](https://github.com/byuidatascience/data4python4ds/blob/master/readme.md) 
-
+We demonstrate how to use the altair library we load the `faithful` data set from this [repository](https://github.com/byuidatascience/data4python4ds/blob/master/readme.md)
 
 ```{python}
 import pandas as pd
@@ -67,7 +65,6 @@ faithful = pd.read_csv(url)
 
 faithful.head()
 ```
-
 
 A basic scatter plot is given in @fig-scatter:
 
@@ -83,7 +80,7 @@ scatter = (alt.Chart(faithful)
 scatter
 ```
 
-@fig-scatter shows a positive and a linear relationship between eruptions and waiting time of the geysers. 
+@fig-scatter shows a positive and a linear relationship between eruptions and waiting time of the geysers.
 
 We demonstrate the usability of aesthetics in `altair` library using the `mpg` dataset.
 
@@ -92,7 +89,7 @@ url = "https://github.com/byuidatascience/data4python4ds/raw/master/data-raw/mpg
 mpg = pd.read_csv(url)
 ```
 
-We graph `displ` versus `hwy` in the `mpg` dataset and then color by the `class` of the car see @fig-aes. 
+We graph `displ` versus `hwy` in the `mpg` dataset and then color by the `class` of the car see @fig-aes.
 
 ```{python}
 #| label: fig-aes
@@ -142,8 +139,7 @@ scat_facet = (alt.Chart(mpg)
 scat_facet
 ```
 
-
-One can do a scatter plot with a super-imposed line of fit. 
+One can do a scatter plot with a super-imposed line of fit.
 
 ```{python}
 #| label: fig-line
@@ -160,11 +156,9 @@ chart_line = base_chart.mark_circle() + base_chart.transform_loess("displ", "hwy
 chart_line
 ```
 
+**Note:** A *mark* is a geometrical object that a plot uses to represent data.
 
-**Note:** A *mark* is a geometrical object that a plot uses to represent data. 
-
-A sample of `line graph`is given in 
-
+A sample of `line graph`is given in
 
 ```{python}
 chart_line = (alt.Chart(mpg)
@@ -181,7 +175,6 @@ chart_line
 An alternative to the `altair` library in Python is the `plotnine` package in Python
 
 We briefly give an illustration of the plotnine library. For more details read this [documentation](https://plotnine.org/)
-
 
 ## A Grammar of Graphics for Python
 
@@ -214,4 +207,3 @@ The code to do the basic plot is:
     + theme_minimal()
 )
 ```
-

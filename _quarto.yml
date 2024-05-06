@@ -46,6 +46,7 @@ website:
               file: underg/hes.qmd
             - text: "SPA 2403 Survival Analysis"
               file: underg/surv.qmd
+            - text: "Introduction to R"
 
 format:
   html:

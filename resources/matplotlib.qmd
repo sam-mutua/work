@@ -9,15 +9,17 @@ We explore how to do various visualizations using the matplolib and seaborn libr
 
 We shall learn the following in this tutorial:
 
-- The **fundamentals** of plotting figures
-- Creating **sub-plots** in Python
-- Creating **animations** in Python
+-   The **fundamentals** of plotting figures
+-   Creating **sub-plots** in Python
+-   Creating **animations** in Python
 
 To decide which software to use between `R` and `Python` for data visualization you can watch this video.
 
-<div class= "ratio ratio-16x9">
-<iframe width="912" height="513" src="https://www.youtube.com/embed/gOYu9k-5ZZg" title="Python vs R for Data Visualization" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+::: {.ratio .ratio-16x9}
+<iframe width="912" height="513" src="https://www.youtube.com/embed/gOYu9k-5ZZg" title="Python vs R for Data Visualization" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
+:::
 
 # Fundamentals of Plots in Python
 
@@ -27,7 +29,7 @@ We shall use the `seaborn` module for more advanced plots that is imported as `s
 
 To install use
 
-```python
+``` python
 !pip install seaborn
 ```
 
@@ -35,7 +37,7 @@ on the Jupyter Notebook Environment.
 
 To call the module to the environment use
 
-```python
+``` python
 import matplotlib.pyplot as plt
 import seaborn as sns
 %matplotlib inline
@@ -43,7 +45,7 @@ import seaborn as sns
 
 The purpose of the command `%matplotlib inline` is to ensure that the plots are shown and embedded within the Jupyter Notebook Itself.
 
-Without the command the plots may sometimes show in pop-up windows. 
+Without the command the plots may sometimes show in pop-up windows.
 
 ## Line Graph
 
@@ -54,7 +56,6 @@ yield_maize = [0.895, 0.91, 0.919, 0.926, 0.929, 0.931]
 plt.plot(yield_maize)
 plt.show()
 ```
-
 
 ### Customizing the x-axis
 
@@ -91,14 +92,13 @@ plt.title("Yield Harvest per year")
 
 The function `plt.plot` supports many arguments for styling markers and the lines
 
-- `color` or `c` This sets the line color
-- `ls` Gives you to choose between solid or dashed line
-- `lw` sets the line width
+-   `color` or `c` This sets the line color
+-   `ls` Gives you to choose between solid or dashed line
+-   `lw` sets the line width
 
 To see more details of the function [see the documentation](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html)
 
-
-### Using Seaborn 
+### Using Seaborn
 
 To make your chart more appeasing you use some default styles form Seaborn library.
 
@@ -111,7 +111,6 @@ plt.xlabel("Year")
 plt.ylabel("Yield")
 plt.title("Yield Harvest per year")
 ```
-
 
 #### darkgrid style
 

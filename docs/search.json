@@ -284,42 +284,62 @@
     "href": "undergraduate.html",
     "title": "Undergraduate Courses",
     "section": "",
-    "text": "This combines both theoretical and practical courses I have taught at undegraduate level at the following Universities Kirinyaga University and JKUAT."
+    "text": "This combines both theoretical and practical courses I have taught at undergraduate level at the following Universities Kirinyaga University and JKUAT."
   },
   {
     "objectID": "underg/index.html",
     "href": "underg/index.html",
     "title": "Contents",
     "section": "",
-    "text": "This gives the lecture notes and sample cat papers for the units.\n\n\n\n\n\n\nWarning\n\n\n\nDisclaimer: Some of the Notes may be incomplete."
+    "text": "This gives the lecture notes and sample cat papers for the units.\n\n\n\n\n\n\nWarning\n\n\n\nDisclaimer: Some of the Notes may be incomplete.",
+    "crumbs": [
+      "Introduction",
+      "Contents"
+    ]
   },
   {
     "objectID": "underg/kyu.html",
     "href": "underg/kyu.html",
     "title": "Statistical Model Building",
     "section": "",
-    "text": "Course Purpose\nTo enable the learner to construct mathematical description of some real-world phenomena that accounts for the uncertainty and/or randomness involved in that system.\n\n\nLearning Outcomes\nBy the end of the course the learner should be able to:\n\nDescribe a non-linear regression model\nDiscuss the asymptotic properties of non-linear least squares estimators\nDescribe the concepts of mixed models\nEstimate functions in non-parametric regression functions\nExplain the concepts of non-parametric regression functions\n\n\n\nCourse Notes\nThe Course Notes prepared are as follows:\n\nCourse Outline\nIntroduction to Statistical Model Building\nModel Building and Variable Selection\nContigency Tables\nGeneralized Linear Models\nLogistic Regression\nPoisson Regression\nRidge Regression Notes"
+    "text": "Course Purpose\nTo enable the learner to construct mathematical description of some real-world phenomena that accounts for the uncertainty and/or randomness involved in that system.\n\n\nLearning Outcomes\nBy the end of the course the learner should be able to:\n\nDescribe a non-linear regression model\nDiscuss the asymptotic properties of non-linear least squares estimators\nDescribe the concepts of mixed models\nEstimate functions in non-parametric regression functions\nExplain the concepts of non-parametric regression functions\n\n\n\nCourse Notes\nThe Course Notes prepared are as follows:\n\nCourse Outline\nIntroduction to Statistical Model Building\nModel Building and Variable Selection\nContigency Tables\nGeneralized Linear Models\nLogistic Regression\nPoisson Regression\nRidge Regression Notes",
+    "crumbs": [
+      "Kirinyaga University",
+      "SPS 2467 Statistical Model Building"
+    ]
   },
   {
     "objectID": "underg/toh.html",
     "href": "underg/toh.html",
     "title": "Tests of Hypothesis",
     "section": "",
-    "text": "Course Purpose\nTo provide a solid and rigorous treatment of inferential problems, statistical methodologies and the underlying concepts and theory of statistical hypothesis.\n\n\nCourse Outcomes\nAt the end of this course learners should be able to:\n\nDiscuss the types of statistical hypothesis\nDemonstrate a thorough insight into the essentials of statistical inference\nDifferentiate type I and II errors\nTest the significance of statistical inference\n\n\n\nCourse Notes\n\nCourse Outline\nIntroduction and Basics in TOH\nUniformly Most Powerful Test\nNeyman Pearson Lemma\nTwo sided Alternative\nGeneralized Likelihood Test\nTesting Independence of two populations, correlation and regression"
+    "text": "Course Purpose\nTo provide a solid and rigorous treatment of inferential problems, statistical methodologies and the underlying concepts and theory of statistical hypothesis.\n\n\nCourse Outcomes\nAt the end of this course learners should be able to:\n\nDiscuss the types of statistical hypothesis\nDemonstrate a thorough insight into the essentials of statistical inference\nDifferentiate type I and II errors\nTest the significance of statistical inference\n\n\n\nCourse Notes\n\nCourse Outline\nIntroduction and Basics in TOH\nUniformly Most Powerful Test\nNeyman Pearson Lemma\nTwo sided Alternative\nGeneralized Likelihood Test\nTesting Independence of two populations, correlation and regression",
+    "crumbs": [
+      "Kirinyaga University",
+      "SPS 2349 Tests of Hypothesis"
+    ]
   },
   {
     "objectID": "underg/hes.html",
     "href": "underg/hes.html",
     "title": "Design and Analysis of Experiments II",
     "section": "",
-    "text": "Course Purpose\nTo equip learners with knowledge and skills in simple and standard designs, their analysis and interpretation.\n\n\nCourse Outcomes\nAt the end of this course learners should be able to:\n\nExplain the principle of Experimentation\nDescribe the use of ANOVA to solve problems\nDescribe and analyse standard experimental design\nDiscuss construction of a sample orthogonal latin square and factorial design\n\n\n\nCourse Notes\n\nCourse Description\nReview of Experimental and Statistical Objectives\nBalanced Incomplete Block Design\nPartially Balanced Incomplete Block Design\nLatin Square Designs\nLattice Designs\nFactorial Designs\nSplit-Plot Designs"
+    "text": "Course Purpose\nTo equip learners with knowledge and skills in simple and standard designs, their analysis and interpretation.\n\n\nCourse Outcomes\nAt the end of this course learners should be able to:\n\nExplain the principle of Experimentation\nDescribe the use of ANOVA to solve problems\nDescribe and analyse standard experimental design\nDiscuss construction of a sample orthogonal latin square and factorial design\n\n\n\nCourse Notes\n\nCourse Description\nReview of Experimental and Statistical Objectives\nBalanced Incomplete Block Design\nPartially Balanced Incomplete Block Design\nLatin Square Designs\nLattice Designs\nFactorial Designs\nSplit-Plot Designs",
+    "crumbs": [
+      "Kirinyaga University",
+      "HES 2213 Design and Analysis of Experiments II"
+    ]
   },
   {
     "objectID": "underg/surv.html",
     "href": "underg/surv.html",
     "title": "Survival Analysis",
     "section": "",
-    "text": "Course Purpose\nTo impart skills on estimation of transition intensities/survival rates\n\n\nCourse Outcomes\nAt the end of the course learners should be able to:\n\nApply principles of actuarial modeling in solving insurance problems\nApply statistical models in approximations and estimations\nDetermine the survival function and hazard function\nDetermine age dependent transition intensities\n\n\n\nCourse Notes\n\nCourse Description\nIntroduction to Survival Analysis\nKaplan Meier Estimate\nMore on Kaplan Meier Estimate\nNelson Aalen Estimator\nCox-PH models\nPoisson and Binomia models\nExposed to Risk\nMore Notes"
+    "text": "Course Purpose\nTo impart skills on estimation of transition intensities/survival rates\n\n\nCourse Outcomes\nAt the end of the course learners should be able to:\n\nApply principles of actuarial modeling in solving insurance problems\nApply statistical models in approximations and estimations\nDetermine the survival function and hazard function\nDetermine age dependent transition intensities\n\n\n\nCourse Notes\n\nCourse Description\nIntroduction to Survival Analysis\nKaplan Meier Estimate\nMore on Kaplan Meier Estimate\nNelson Aalen Estimator\nCox-PH models\nPoisson and Binomia models\nExposed to Risk\nMore Notes",
+    "crumbs": [
+      "Kirinyaga University",
+      "SPA 2403 Survival Analysis"
+    ]
   },
   {
     "objectID": "resources/pythonds.html",
@@ -348,5 +368,26 @@
     "title": "Data Visualization with altair Package in Python",
     "section": "A Grammar of Graphics for Python",
     "text": "A Grammar of Graphics for Python\nplotnine is an implementation of a grammar of graphics in Python that is based on ggplot2.\nThe grammar allows you to compose plots by explicitly mapping variables in a dataframe to the visual objects that make up the plot.\nTo install plotnine run the following code:\n\n\nCode\n!pip install plotnine \n\n\n\n\nCode\nfrom plotnine import ggplot, geom_point, aes, stat_smooth, facet_wrap, theme_minimal\nfrom plotnine.data import mtcars\n\n\nThe code to do the basic plot is:\n\n\nCode\n(\n    ggplot(mtcars, aes(\"wt\", \"mpg\", color=\"factor(gear)\"))\n    + geom_point()\n    + stat_smooth(method=\"lm\")\n    + facet_wrap(\"gear\")\n    + theme_minimal()\n)"
+  },
+  {
+    "objectID": "undergraduate.html#course-purpose",
+    "href": "undergraduate.html#course-purpose",
+    "title": "Undergraduate Courses",
+    "section": "Course Purpose",
+    "text": "Course Purpose\nTo enable the learner to construct mathematical description of some real-world phenomena that accounts for the uncertainty and/or randomness involved in that system."
+  },
+  {
+    "objectID": "undergraduate.html#learning-outcomes",
+    "href": "undergraduate.html#learning-outcomes",
+    "title": "Undergraduate Courses",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\nBy the end of the course the learner should be able to:\n\nDescribe a non-linear regression model\nDiscuss the asymptotic properties of non-linear least squares estimators\nDescribe the concepts of mixed models\nEstimate functions in non-parametric regression functions\nExplain the concepts of non-parametric regression functions"
+  },
+  {
+    "objectID": "undergraduate.html#course-notes",
+    "href": "undergraduate.html#course-notes",
+    "title": "Undergraduate Courses",
+    "section": "Course Notes",
+    "text": "Course Notes\nThe Course Notes prepared are as follows:\n\nCourse Outline\nIntroduction to Statistical Model Building\nModel Building and Variable Selection\nContigency Tables\nGeneralized Linear Models\nLogistic Regression\nPoisson Regression\nRidge Regression Notes"
   }
 ]
