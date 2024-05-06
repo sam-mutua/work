@@ -41,6 +41,8 @@ This page provides a variety of resources on various areas including:
 -   [Introduction to Visualization](resources/datavizpython.qmd)
 
 -   [Data Visualization Using Matplotlib and Seaborn](resources/matplotlib.qmd)
+
+-   [Data Visualization using altair](resources/pythonds.qmd)
 :::
 
 ::: g-col-4

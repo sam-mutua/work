@@ -1,0 +1,217 @@
+---
+title: "Data Visualization with altair Package in Python"
+format:
+  html: 
+    code-fold: true
+jupyter: python3
+---
+
+Altair is a declarative statistical visualization library for python.
+
+For more details on the library read [here](https://altair-viz.github.io/)
+
+To install the package use the following code:
+
+```{python}
+#| eval: false
+pip install altair
+```
+
+You only need to install a package once but you need to reload it every time you start a new session
+
+## Altair data management
+
+When specifying data in Altair we use pandas Data Frame objects.
+
+Use of pandas Data Frame will prompt altair to store entire data set in JSON format.
+
+
+The syntax for altair is equivalent to the `ggplot` function in R.
+
+The `ggplot()` function one provides the following:
+
+- data
+- geom function
+- collection of mapping
+
+The `altair` syntax is given as follows:
+
+```{python}
+#| eval: false
+(alt.Chart(<data>)
+    .encode(<ENCODINGS>)
+    .mark_*())
+```
+
+### Aesthetic mappings
+
+An encoding is a visual property of the objects in your plot and they include things like:
+
+- size
+- shape
+- color of your points
+
+# Basic Scatter Plot
+
+We demonstrate how to use the altair library we load the `faithful` data set from this [repository](https://github.com/byuidatascience/data4python4ds/blob/master/readme.md) 
+
+
+```{python}
+import pandas as pd
+
+import altair as alt
+
+url = "https://github.com/byuidatascience/data4python4ds/raw/master/data-raw/faithful/faithful.csv"
+
+faithful = pd.read_csv(url)
+
+faithful.head()
+```
+
+
+A basic scatter plot is given in @fig-scatter:
+
+```{python}
+#| label: fig-scatter
+#| fig-cap: "A scatter plot for eruptions versus waiting time"
+#| fig-align: center
+scatter = (alt.Chart(faithful)
+               .encode(
+                 x = "waiting",
+                 y = "eruptions")
+                 .mark_circle())
+scatter
+```
+
+@fig-scatter shows a positive and a linear relationship between eruptions and waiting time of the geysers. 
+
+We demonstrate the usability of aesthetics in `altair` library using the `mpg` dataset.
+
+```{python}
+url = "https://github.com/byuidatascience/data4python4ds/raw/master/data-raw/mpg/mpg.csv"
+mpg = pd.read_csv(url)
+```
+
+We graph `displ` versus `hwy` in the `mpg` dataset and then color by the `class` of the car see @fig-aes. 
+
+```{python}
+#| label: fig-aes
+#| fig-cap: "Scatter plot with additional aesthetic"
+#| fig-align: center
+
+scat_mpg = (alt.Chart(mpg)
+                .encode(
+                  x = "displ",
+                  y = "hwy",
+                  color = "class")
+                  .mark_circle())
+scat_mpg
+```
+
+One can configure the encoding properties of your mark manually as shown in the code below:
+
+```{python}
+#| label: fig-aes2
+#| fig-cap: "Scatter plot with manual encoding"
+#| fig-align: center
+
+scat_mpgb = (alt.Chart(mpg)
+                .encode(
+                  x = "displ",
+                  y = "hwy",
+                  color = alt.value("blue"))
+                  .mark_circle())
+scat_mpgb
+```
+
+A way to add additional variables is with `facets`. This works especially for categorical variables.
+
+```{python}
+#| label: fig-facet
+#| fig-cap: "Scatter plot with faceting"
+#| fig-align: center
+
+scat_facet = (alt.Chart(mpg)
+                .encode(
+                  x = "displ",
+                  y = "hwy")
+                  .mark_circle()
+                  .facet(
+                    facet = "class",
+                    columns = 3))
+scat_facet
+```
+
+
+One can do a scatter plot with a super-imposed line of fit. 
+
+```{python}
+#| label: fig-line
+#| fig-align: center
+#| fig-cap: "Scatter plot with a superimposed line"
+
+base_chart = (alt.Chart(mpg)
+  .encode(
+    x = "displ",
+    y = "hwy"
+    ))
+
+chart_line = base_chart.mark_circle() + base_chart.transform_loess("displ", "hwy").mark_line()
+chart_line
+```
+
+
+**Note:** A *mark* is a geometrical object that a plot uses to represent data. 
+
+A sample of `line graph`is given in 
+
+
+```{python}
+chart_line = (alt.Chart(mpg)
+                 .transform_loess("displ", "hwy", groupby =                          ["drv"])
+                 .encode(
+                   x = "displ",
+                   y = "hwy",
+                   strokeDash = "drv"
+                )
+                .mark_line())
+chart_line
+```
+
+An alternative to the `altair` library in Python is the `plotnine` package in Python
+
+We briefly give an illustration of the plotnine library. For more details read this [documentation](https://plotnine.org/)
+
+
+## A Grammar of Graphics for Python
+
+`plotnine` is an implementation of a *grammar of graphics* in Python that is based on `ggplot2`.
+
+The grammar allows you to compose plots by explicitly mapping variables in a dataframe to the visual objects that make up the plot.
+
+To install `plotnine` run the following code:
+
+```{python}
+#| eval: false
+!pip install plotnine 
+```
+
+```{python}
+#| eval: false
+from plotnine import ggplot, geom_point, aes, stat_smooth, facet_wrap, theme_minimal
+from plotnine.data import mtcars
+```
+
+The code to do the basic plot is:
+
+```{python}
+#| eval: false
+(
+    ggplot(mtcars, aes("wt", "mpg", color="factor(gear)"))
+    + geom_point()
+    + stat_smooth(method="lm")
+    + facet_wrap("gear")
+    + theme_minimal()
+)
+```
+

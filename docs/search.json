@@ -18,7 +18,7 @@
     "href": "resources.html",
     "title": "Statistical Resources",
     "section": "",
-    "text": "This page provides a variety of resources on various areas including:\n\nLatex Software\nR\nPython\nR Package Development\n\n\n\nLatex Resources\n\nLaTeX Seminar Training\n\n\n\nR Resources\n\nIntroduction to R\n\n\n\nPython Resources\n\nCrash Course in Python\n\n\n\n\n\nData Visualization in R\n\n\nData Visualization in Python\n\nIntroduction to Visualization\nData Visualization Using Matplotlib and Seaborn\n\n\n\nBig Data Analytics\n\nIntroduction to Big Data"
+    "text": "This page provides a variety of resources on various areas including:\n\nLatex Software\nR\nPython\nR Package Development\n\n\n\nLatex Resources\n\nLaTeX Seminar Training\n\n\n\nR Resources\n\nIntroduction to R\n\n\n\nPython Resources\n\nCrash Course in Python\n\n\n\n\n\nData Visualization in R\n\n\nData Visualization in Python\n\nIntroduction to Visualization\nData Visualization Using Matplotlib and Seaborn\nData Visualization using altair\n\n\n\nBig Data Analytics\n\nIntroduction to Big Data"
   },
   {
     "objectID": "publication.html",
@@ -320,5 +320,33 @@
     "title": "Survival Analysis",
     "section": "",
     "text": "Course Purpose\nTo impart skills on estimation of transition intensities/survival rates\n\n\nCourse Outcomes\nAt the end of the course learners should be able to:\n\nApply principles of actuarial modeling in solving insurance problems\nApply statistical models in approximations and estimations\nDetermine the survival function and hazard function\nDetermine age dependent transition intensities\n\n\n\nCourse Notes\n\nCourse Description\nIntroduction to Survival Analysis\nKaplan Meier Estimate\nMore on Kaplan Meier Estimate\nNelson Aalen Estimator\nCox-PH models\nPoisson and Binomia models\nExposed to Risk\nMore Notes"
+  },
+  {
+    "objectID": "resources/pythonds.html",
+    "href": "resources/pythonds.html",
+    "title": "Data Visualization with altair Package in Python",
+    "section": "",
+    "text": "Altair is a declarative statistical visualization library for python.\nFor more details on the library read here\nTo install the package use the following code:\nCode\npip install altair\nYou only need to install a package once but you need to reload it every time you start a new session"
+  },
+  {
+    "objectID": "resources/pythonds.html#alatair-data-management",
+    "href": "resources/pythonds.html#alatair-data-management",
+    "title": "Data Visualization with altair Package in Python",
+    "section": "Alatair data management",
+    "text": "Alatair data management\nWhen specifying data in Altair we use pandas Data Frame objects.\nUse of pandas Data Frame will prompt altair to store entire data set in JSON format."
+  },
+  {
+    "objectID": "resources/pythonds.html#altair-data-management",
+    "href": "resources/pythonds.html#altair-data-management",
+    "title": "Data Visualization with altair Package in Python",
+    "section": "Altair data management",
+    "text": "Altair data management\nWhen specifying data in Altair we use pandas Data Frame objects.\nUse of pandas Data Frame will prompt altair to store entire data set in JSON format.\nThe syntax for altair is equivalent to the ggplot function in R.\nThe ggplot() function one provides the following:\n\ndata\ngeom function\ncollection of mapping\n\nThe altair syntax is given as follows:\n\n\nCode\n(alt.Chart(&lt;data&gt;)\n    .encode(&lt;ENCODINGS&gt;)\n    .mark_*())\n\n\n\nAesthetic mappings\nAn encoding is a visual property of the objects in your plot and they include things like:\n\nsize\nshape\ncolor of your points"
+  },
+  {
+    "objectID": "resources/pythonds.html#a-grammar-of-graphics-for-python",
+    "href": "resources/pythonds.html#a-grammar-of-graphics-for-python",
+    "title": "Data Visualization with altair Package in Python",
+    "section": "A Grammar of Graphics for Python",
+    "text": "A Grammar of Graphics for Python\nplotnine is an implementation of a grammar of graphics in Python that is based on ggplot2.\nThe grammar allows you to compose plots by explicitly mapping variables in a dataframe to the visual objects that make up the plot.\nTo install plotnine run the following code:\n\n\nCode\n!pip install plotnine \n\n\n\n\nCode\nfrom plotnine import ggplot, geom_point, aes, stat_smooth, facet_wrap, theme_minimal\nfrom plotnine.data import mtcars\n\n\nThe code to do the basic plot is:\n\n\nCode\n(\n    ggplot(mtcars, aes(\"wt\", \"mpg\", color=\"factor(gear)\"))\n    + geom_point()\n    + stat_smooth(method=\"lm\")\n    + facet_wrap(\"gear\")\n    + theme_minimal()\n)"
   }
 ]
